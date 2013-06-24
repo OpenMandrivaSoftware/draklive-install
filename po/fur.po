@@ -1,0 +1,225 @@
+# translation of DrakX.po to furlan
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# Andrea Gracco <graccoandrea@tin.it>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX\n"
+"POT-Creation-Date: 2012-10-22 13:47+0400\n"
+"PO-Revision-Date: 2004-06-28 17:41+0200\n"
+"Last-Translator: Andrea Gracco <graccoandrea@tin.it>\n"
+"Language-Team: furlan <gft@freelists.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../draklive-install:111
+#, c-format
+msgid "OpenMandriva Live"
+msgstr ""
+
+#: ../draklive-install:116
+#, c-format
+msgid "This wizard will help you to install the live distribution."
+msgstr ""
+
+#: ../draklive-install:142 ../draklive-install:213 ../draklive-install:294
+#, c-format
+msgid "Please wait"
+msgstr "Par plasè, spiete"
+
+#: ../draklive-install:163 ../draklive-install:175 ../draklive-install:272
+#: ../draklive-install:470 ../draklive-install:477 ../draklive-install:498
+#, c-format
+msgid "Error"
+msgstr "Fal"
+
+#: ../draklive-install:175
+#, c-format
+msgid "An error occurred"
+msgstr "Al è intravignût un fal"
+
+#: ../draklive-install:191
+#, c-format
+msgid "Not enough space available (%s available while %s are needed)"
+msgstr ""
+
+#: ../draklive-install:246 ../draklive-install:604
+#, fuzzy, c-format
+msgid "Copying in progress"
+msgstr "Instalazion in vore"
+
+#: ../draklive-install:272
+#, c-format
+msgid "Unable to copy files to new root"
+msgstr ""
+
+#: ../draklive-install:369
+#, c-format
+msgid " Mb\n"
+msgstr ""
+
+#: ../draklive-install:373
+#, c-format
+msgid " Gb\n"
+msgstr ""
+
+#: ../draklive-install:444
+#, c-format
+msgid "Bootloader main options"
+msgstr ""
+
+#: ../draklive-install:447
+#, c-format
+msgid "Bootloader"
+msgstr ""
+
+#: ../draklive-install:448
+#, c-format
+msgid "Boot device"
+msgstr "Dispositîf di inviament"
+
+#: ../draklive-install:450
+#, c-format
+msgid "Main options"
+msgstr ""
+
+#: ../draklive-install:451
+#, c-format
+msgid "Delay before booting default image"
+msgstr "Ritart prin di inviâ le imagjin predefinide"
+
+#: ../draklive-install:452
+#, c-format
+msgid "Disable UUID"
+msgstr ""
+
+#: ../draklive-install:456
+#, c-format
+msgid "Please wait while Grub2 is being installed..."
+msgstr ""
+
+#: ../draklive-install:460
+#, c-format
+msgid "Warning"
+msgstr ""
+
+#: ../draklive-install:460
+#, c-format
+msgid "Failed to update Grub2 configuration:"
+msgstr ""
+
+#: ../draklive-install:460
+#, c-format
+msgid "Continuing with default settings."
+msgstr ""
+
+#: ../draklive-install:470
+#, c-format
+msgid "Failed to prepare chroot for installing Grub2:"
+msgstr ""
+
+#: ../draklive-install:470 ../draklive-install:477
+#, c-format
+msgid "Try again?"
+msgstr ""
+
+#: ../draklive-install:477
+#, c-format
+msgid "Failed to install Grub2:"
+msgstr ""
+
+#: ../draklive-install:492
+#, c-format
+msgid "Please wait while initrd is prepared"
+msgstr ""
+
+#: ../draklive-install:498
+#, c-format
+msgid "Unable to copy initrd.img  to new /boot directory"
+msgstr ""
+
+#: ../draklive-install:502
+#, c-format
+msgid "initrd.img has been created"
+msgstr ""
+
+#: ../draklive-install:531
+#, c-format
+msgid ""
+"Please halt your computer, remove your live system, and restart your "
+"computer."
+msgstr ""
+
+#: ../draklive-install:533
+#, c-format
+msgid ""
+"Your VNC connection will be dropped. Please reconnect after the computer is "
+"restarted."
+msgstr ""
+
+#: ../draklive-install:540
+#, c-format
+msgid "Congratulations"
+msgstr "Congratulazions"
+
+#: ../draklive-install:546
+#, c-format
+msgid "Finish"
+msgstr "Finìs"
+
+#: ../draklive-install:569
+#, c-format
+msgid "Continue anyway?"
+msgstr "Continue distès?"
+
+#: ../draklive-install:574
+#, c-format
+msgid "Quit without saving"
+msgstr "Jessî cence salvâ"
+
+#: ../draklive-install:574
+#, c-format
+msgid "Quit without writing the partition table?"
+msgstr "Jessî cence scrivi te tabele des partizions?"
+
+#: ../draklive-install:580
+#, c-format
+msgid "Do you want to save /etc/fstab modifications"
+msgstr "Vuelistu salvâ les modifichis a /etc/fstab"
+
+#: ../draklive-install:587
+#, c-format
+msgid "You need to reboot for the partition table modifications to take place"
+msgstr ""
+"Tu âs di tornâ a inviâ par che les modifichis a le tabele des partizions e "
+"ledin in vore"
+
+#: ../draklive-install:592
+#, c-format
+msgid ""
+"You should format partition %s.\n"
+"Otherwise no entry for mount point %s will be written in fstab.\n"
+"Quit anyway?"
+msgstr ""
+
+#: ../rosa-draklive-install.desktop.in.h:1
+msgid "Install your OpenMandriva live system to disk"
+msgstr ""
+
+#: ../rosa-draklive-install.desktop.in.h:2
+msgid "Live Install"
+msgstr ""
+
+#: ../draklive-install.desktop.in.h:1
+msgid "Install on Hard Disk"
+msgstr ""
+
+#~ msgid "Resizing"
+#~ msgstr "O cambii le dimension"
+
+#~ msgid "Remove Windows(TM)"
+#~ msgstr "Rimôf Windows (TM)"

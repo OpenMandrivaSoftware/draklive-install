@@ -1,0 +1,232 @@
+# translation of sl.po to Slovenian
+# Copyright (C) 2004, 2005, 2006, 2008 Free Software Foundation, Inc.
+#
+# Matjaž Kaše <matjaz.kase@g-kabel.si>, 2004.
+# Aljoša Ločičnik <aljosa.locicnik@mandrakeprinas.org>, 2005.
+# Gregor Pirnaver <gregor.pirnaver@sdm-si.org>, 2002,2004,2005.
+# Jure Repinc <jlp@holodeck1.com>, 2005, 2008, 2010.
+# Matjaž Kaše <matjaz.kase@telemach.net>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: sl\n"
+"POT-Creation-Date: 2012-10-22 13:47+0400\n"
+"PO-Revision-Date: 2010-05-09 16:45+0200\n"
+"Last-Translator: Jure Repinc <jlp@holodeck1.com>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms:  nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
+
+#: ../draklive-install:111
+#, c-format
+msgid "OpenMandriva Live"
+msgstr "OpenMandriva Live "
+
+#: ../draklive-install:116
+#, c-format
+msgid "This wizard will help you to install the live distribution."
+msgstr "Ta čarovnik vam bo pomagal namestiti živo distribucijo."
+
+#: ../draklive-install:142 ../draklive-install:213 ../draklive-install:294
+#, c-format
+msgid "Please wait"
+msgstr "Prosim, počakajte!"
+
+#: ../draklive-install:163 ../draklive-install:175 ../draklive-install:272
+#: ../draklive-install:470 ../draklive-install:477 ../draklive-install:498
+#, c-format
+msgid "Error"
+msgstr "Napaka"
+
+#: ../draklive-install:175
+#, c-format
+msgid "An error occurred"
+msgstr "Prišlo je do napake"
+
+#: ../draklive-install:191
+#, c-format
+msgid "Not enough space available (%s available while %s are needed)"
+msgstr "Na voljo ni dovolj prostora (na voljo ga je %s, potrebno pa %s)"
+
+#: ../draklive-install:246 ../draklive-install:604
+#, c-format
+msgid "Copying in progress"
+msgstr "Kopiranje poteka"
+
+#: ../draklive-install:272
+#, c-format
+msgid "Unable to copy files to new root"
+msgstr "Ni moč skopirati datotek v novo korensko mapo"
+
+#: ../draklive-install:369
+#, c-format
+msgid " Mb\n"
+msgstr ""
+
+#: ../draklive-install:373
+#, c-format
+msgid " Gb\n"
+msgstr ""
+
+#: ../draklive-install:444
+#, c-format
+msgid "Bootloader main options"
+msgstr "Glavne možnosti zagonskega nalagalnika"
+
+#: ../draklive-install:447
+#, c-format
+msgid "Bootloader"
+msgstr "Zagonski nalagalnik"
+
+#: ../draklive-install:448
+#, c-format
+msgid "Boot device"
+msgstr "Zagonska naprava"
+
+#: ../draklive-install:450
+#, c-format
+msgid "Main options"
+msgstr "Glavne nastavitve"
+
+#: ../draklive-install:451
+#, c-format
+msgid "Delay before booting default image"
+msgstr "Premor pred zaganjanjem privzete slike"
+
+#: ../draklive-install:452
+#, c-format
+msgid "Disable UUID"
+msgstr ""
+
+#: ../draklive-install:456
+#, c-format
+msgid "Please wait while Grub2 is being installed..."
+msgstr ""
+
+#: ../draklive-install:460
+#, c-format
+msgid "Warning"
+msgstr ""
+
+#: ../draklive-install:460
+#, c-format
+msgid "Failed to update Grub2 configuration:"
+msgstr ""
+
+#: ../draklive-install:460
+#, c-format
+msgid "Continuing with default settings."
+msgstr ""
+
+#: ../draklive-install:470
+#, c-format
+msgid "Failed to prepare chroot for installing Grub2:"
+msgstr ""
+
+#: ../draklive-install:470 ../draklive-install:477
+#, c-format
+msgid "Try again?"
+msgstr ""
+
+#: ../draklive-install:477
+#, c-format
+msgid "Failed to install Grub2:"
+msgstr ""
+
+#: ../draklive-install:492
+#, c-format
+msgid "Please wait while initrd is prepared"
+msgstr ""
+
+#: ../draklive-install:498
+#, fuzzy, c-format
+msgid "Unable to copy initrd.img  to new /boot directory"
+msgstr "Ni moč skopirati datotek v novo korensko mapo"
+
+#: ../draklive-install:502
+#, c-format
+msgid "initrd.img has been created"
+msgstr ""
+
+#: ../draklive-install:531
+#, c-format
+msgid ""
+"Please halt your computer, remove your live system, and restart your "
+"computer."
+msgstr ""
+"Prosimo, zaustavite računalnik, odstranite nosilec z živo distribucijo in "
+"ponovno zaženite računalnik."
+
+#: ../draklive-install:533
+#, c-format
+msgid ""
+"Your VNC connection will be dropped. Please reconnect after the computer is "
+"restarted."
+msgstr ""
+
+#: ../draklive-install:540
+#, c-format
+msgid "Congratulations"
+msgstr "Čestitke"
+
+#: ../draklive-install:546
+#, c-format
+msgid "Finish"
+msgstr "Zaključi"
+
+#: ../draklive-install:569
+#, c-format
+msgid "Continue anyway?"
+msgstr "Ali naj vseeno nadaljujem?"
+
+#: ../draklive-install:574
+#, c-format
+msgid "Quit without saving"
+msgstr "Končaj brez shranjevanja"
+
+#: ../draklive-install:574
+#, c-format
+msgid "Quit without writing the partition table?"
+msgstr "Ali naj končam brez zapisovanja razdelitvene tabele?"
+
+#: ../draklive-install:580
+#, c-format
+msgid "Do you want to save /etc/fstab modifications"
+msgstr "Ali želite shraniti spremembe v /etc/fstab?"
+
+#: ../draklive-install:587
+#, c-format
+msgid "You need to reboot for the partition table modifications to take place"
+msgstr ""
+"Da bi uveljavili spremembe razdelitvene tabele, morate ponovno zagnati "
+"računalnik."
+
+#: ../draklive-install:592
+#, c-format
+msgid ""
+"You should format partition %s.\n"
+"Otherwise no entry for mount point %s will be written in fstab.\n"
+"Quit anyway?"
+msgstr ""
+"Razdelek %s bi morali formatirati.\n"
+"Drugače vnos za priklopno točko %s ne bo vpisan v fstab.\n"
+"Ali naj vseeno končam?"
+
+#: ../rosa-draklive-install.desktop.in.h:1
+msgid "Install your OpenMandriva live system to disk"
+msgstr "Namestitev sistema OpenMandriva na trdi disk"
+
+#: ../rosa-draklive-install.desktop.in.h:2
+msgid "Live Install"
+msgstr "Namestitev"
+
+#: ../draklive-install.desktop.in.h:1
+msgid "Install on Hard Disk"
+msgstr "Namesti na trdi disk"
+
+#~ msgid "Computing total size"
+#~ msgstr "Izračunavanje celotnega prostora"

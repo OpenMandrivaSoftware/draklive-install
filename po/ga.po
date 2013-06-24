@@ -1,0 +1,309 @@
+#
+# Alastair McKinstry <mckinstry@computer.org>, 2002
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX\n"
+"POT-Creation-Date: 2012-10-22 13:47+0400\n"
+"PO-Revision-Date: 2005-09-12 18:04+0200\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../draklive-install:111
+#, c-format
+msgid "OpenMandriva Live"
+msgstr ""
+
+#: ../draklive-install:116
+#, c-format
+msgid "This wizard will help you to install the live distribution."
+msgstr ""
+
+#: ../draklive-install:142 ../draklive-install:213 ../draklive-install:294
+#, c-format
+msgid "Please wait"
+msgstr "Fan tamall"
+
+#: ../draklive-install:163 ../draklive-install:175 ../draklive-install:272
+#: ../draklive-install:470 ../draklive-install:477 ../draklive-install:498
+#, c-format
+msgid "Error"
+msgstr "Earráid"
+
+#: ../draklive-install:175
+#, c-format
+msgid "An error occurred"
+msgstr "Tharla earráid"
+
+#: ../draklive-install:191
+#, c-format
+msgid "Not enough space available (%s available while %s are needed)"
+msgstr ""
+
+#: ../draklive-install:246 ../draklive-install:604
+#, fuzzy, c-format
+msgid "Copying in progress"
+msgstr "Pointe taca dublach %s"
+
+#: ../draklive-install:272
+#, c-format
+msgid "Unable to copy files to new root"
+msgstr ""
+
+#: ../draklive-install:369
+#, c-format
+msgid " Mb\n"
+msgstr ""
+
+#: ../draklive-install:373
+#, c-format
+msgid " Gb\n"
+msgstr ""
+
+#: ../draklive-install:444
+#, c-format
+msgid "Bootloader main options"
+msgstr "Príomhroghanna bootáil"
+
+#: ../draklive-install:447
+#, c-format
+msgid "Bootloader"
+msgstr "Clár dúisithe"
+
+#: ../draklive-install:448
+#, c-format
+msgid "Boot device"
+msgstr "Gaireas bootáil"
+
+#: ../draklive-install:450
+#, c-format
+msgid "Main options"
+msgstr ""
+
+#: ../draklive-install:451
+#, c-format
+msgid "Delay before booting default image"
+msgstr ""
+
+#: ../draklive-install:452
+#, c-format
+msgid "Disable UUID"
+msgstr ""
+
+#: ../draklive-install:456
+#, c-format
+msgid "Please wait while Grub2 is being installed..."
+msgstr ""
+
+#: ../draklive-install:460
+#, fuzzy, c-format
+msgid "Warning"
+msgstr "Printéir"
+
+#: ../draklive-install:460
+#, c-format
+msgid "Failed to update Grub2 configuration:"
+msgstr ""
+
+#: ../draklive-install:460
+#, c-format
+msgid "Continuing with default settings."
+msgstr ""
+
+#: ../draklive-install:470
+#, c-format
+msgid "Failed to prepare chroot for installing Grub2:"
+msgstr ""
+
+#: ../draklive-install:470 ../draklive-install:477
+#, c-format
+msgid "Try again?"
+msgstr ""
+
+#: ../draklive-install:477
+#, c-format
+msgid "Failed to install Grub2:"
+msgstr ""
+
+#: ../draklive-install:492
+#, c-format
+msgid "Please wait while initrd is prepared"
+msgstr ""
+
+#: ../draklive-install:498
+#, c-format
+msgid "Unable to copy initrd.img  to new /boot directory"
+msgstr ""
+
+#: ../draklive-install:502
+#, c-format
+msgid "initrd.img has been created"
+msgstr ""
+
+#: ../draklive-install:531
+#, c-format
+msgid ""
+"Please halt your computer, remove your live system, and restart your "
+"computer."
+msgstr ""
+
+#: ../draklive-install:533
+#, c-format
+msgid ""
+"Your VNC connection will be dropped. Please reconnect after the computer is "
+"restarted."
+msgstr ""
+
+#: ../draklive-install:540
+#, c-format
+msgid "Congratulations"
+msgstr "Comhghairdeas"
+
+#: ../draklive-install:546
+#, c-format
+msgid "Finish"
+msgstr "Criochnaigh"
+
+#: ../draklive-install:569
+#, c-format
+msgid "Continue anyway?"
+msgstr "Lean ar aghaidh ar aon nós?"
+
+#: ../draklive-install:574
+#, c-format
+msgid "Quit without saving"
+msgstr "Éalaigh gan sabháil"
+
+#: ../draklive-install:574
+#, c-format
+msgid "Quit without writing the partition table?"
+msgstr "Éalaigh gan an clár-ranna a scríobh?"
+
+#: ../draklive-install:580
+#, fuzzy, c-format
+msgid "Do you want to save /etc/fstab modifications"
+msgstr "An bhfuil tú ag iarraidh an cumraíocht a thrial?"
+
+#: ../draklive-install:587
+#, c-format
+msgid "You need to reboot for the partition table modifications to take place"
+msgstr ""
+"Is gá an ríomhaire a atosnú sula gcuirfear na hathruithe sa ranntábla i "
+"bhfeidhm"
+
+#: ../draklive-install:592
+#, c-format
+msgid ""
+"You should format partition %s.\n"
+"Otherwise no entry for mount point %s will be written in fstab.\n"
+"Quit anyway?"
+msgstr ""
+
+#: ../rosa-draklive-install.desktop.in.h:1
+msgid "Install your OpenMandriva live system to disk"
+msgstr ""
+
+#: ../rosa-draklive-install.desktop.in.h:2
+msgid "Live Install"
+msgstr ""
+
+#: ../draklive-install.desktop.in.h:1
+msgid "Install on Hard Disk"
+msgstr ""
+
+#~ msgid "Choose the partitions you want to format"
+#~ msgstr "Roghnaigh na ranna atá le formáidiú"
+
+#~ msgid "Not enough swap space to fulfill installation, please add some"
+#~ msgstr "Nil dothain spas malartu chun insealbhu, chuir leis an spas"
+
+#~ msgid "No partition available"
+#~ msgstr "níl aon ranna saora ann"
+
+#~ msgid "Choose the mount points"
+#~ msgstr "Roghnaigh na pointí feistithe"
+
+#~ msgid "Duplicate mount point %s"
+#~ msgstr "Pointe taca dublach %s"
+
+#~ msgid ""
+#~ "You do not have a swap partition.\n"
+#~ "\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "Níl aon ranna malairte agat\n"
+#~ "\n"
+#~ "x1Lean ar aghaidh ar aon nós?"
+
+#~ msgid "Use free space"
+#~ msgstr "Úsáid spás saor"
+
+#, fuzzy
+#~ msgid "There is no existing partition to use"
+#~ msgstr "Ag iarraidh an clár-ranna a tarrtháil"
+
+#, fuzzy
+#~ msgid "Which partition do you want to use for Linux4Win?"
+#~ msgstr "Cén rann a bhfuil tú ag iarraidh úsáid mar rann fréamhach"
+
+#~ msgid "Choose the sizes"
+#~ msgstr "Roghnaigh an méid nua"
+
+#~ msgid "Root partition size in MB: "
+#~ msgstr "Méid i MB do Rhann Fréamhach:"
+
+#~ msgid "Swap partition size in MB: "
+#~ msgstr "Méid i MB do rhann malairte:"
+
+#~ msgid "Use the free space on the Windows partition"
+#~ msgstr "Úsáid an spás saor ar an rann Windows"
+
+#~ msgid "Resizing"
+#~ msgstr "Ag athméadú"
+
+#, fuzzy
+#~ msgid "Computing the size of the Windows partition"
+#~ msgstr "Cruthaigh rann nua"
+
+#~ msgid "partition %s"
+#~ msgstr "rann %s"
+
+#, fuzzy
+#~ msgid "Resizing Windows partition"
+#~ msgstr "Ag ríomhadh teorainn na córais-comhadlanna FAT"
+
+#~ msgid "FAT resizing failed: %s"
+#~ msgstr "Theip ar uathathmhéadú FAT: %s"
+
+#~ msgid "Remove Windows(TM)"
+#~ msgstr "Dealaigh Windows(TM)"
+
+#, fuzzy
+#~ msgid "Erase and use entire disk"
+#~ msgstr "Glan diosca ina iomlán"
+
+#~ msgid "Custom disk partitioning"
+#~ msgstr "Rannú diosca saincheaptha"
+
+#~ msgid "Use fdisk"
+#~ msgstr "Úsáid fdisk"
+
+#, fuzzy
+#~ msgid "I can not find any room for installing"
+#~ msgstr "Ní féidir liom rann eile a cur isteach"
+
+#~ msgid "Partitioning failed: %s"
+#~ msgstr "Theip ar rannú: %s"
+
+#~ msgid "Bringing up the network"
+#~ msgstr "Ag tosnú suas an ghréasán"
+
+#~ msgid "Bringing down the network"
+#~ msgstr "Ag dúnadh síos an ghreasán"
+
+#~ msgid "none"
+#~ msgstr "Ar bith"
