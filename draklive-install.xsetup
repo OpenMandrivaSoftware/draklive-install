@@ -6,5 +6,5 @@ if grep -q '\binstall\b' /proc/cmdline; then
   xset -dpms
   xset s 0 0
   /usr/sbin/draklive-install
-  sleep 1; reboot
+  sleep 1; reboot & eject
 fi
