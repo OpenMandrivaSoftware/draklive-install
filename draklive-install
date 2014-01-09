@@ -457,7 +457,7 @@ sub setup_bootloader {
         ]) or return 0;
 
         # Now let's rock and roll!
-        my $_wait = $in->wait_message('Bootloader', N("Please wait while the bootloader is being installed..."));
+        my $_wait = $in->wait_message(N("Bootloader"), N("Please wait while the bootloader is being installed..."));
 
         # Write down the options
         if (!update_grub_options('/mnt/install/etc/default/grub', \%options)) {
