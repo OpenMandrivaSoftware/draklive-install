@@ -477,7 +477,6 @@ sub setup_bootloader {
 
         # Now install the Grub2 itself and create menu configuration for it.
         $install_err = system("chroot /mnt/install /bin/sh -c 'echo boot=$install_device > /boot/grub2/drakboot.conf && grub2-install $install_device && grub2-mkconfig -o /boot/grub2/grub.cfg'");
-if ($install_err != 0) {
         if ($install_err != 0) {
             $install_err = $in->ask_yesorno(N("Error"), N("Failed to install Grub2:") . " $!\n" . N("Try again?"), 1);
             next;
