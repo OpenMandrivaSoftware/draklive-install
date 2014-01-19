@@ -30,7 +30,7 @@ dist-svn:
 	rm -rf $(NAME)-$(VERSION) 
  
 dist-git: 
-	@git archive --prefix=$(NAME)-$(VERSION)/ HEAD | lzma >../$(NAME)-$(VERSION).tar.lzma; 
+	@git archive --prefix=$(NAME)-$(VERSION)/ HEAD | xz >../$(NAME)-$(VERSION).tar.xz;
 
 check:
 	rm -f po/draklive-install.pot
