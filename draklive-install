@@ -191,9 +191,17 @@ sub ask_partitions {
     fs::partitioning::choose_partitions_to_format($in, $fstab);
 
     my $total = get_live_system_size();
+
+    # add the headroom to the size for display of how much we really need
+    my $minAvailableSize = 65 * sqr(1024);
+    my $needed + max(0.1 * $total, $minAvailableSize);
+
+    # report the actual size asked for (getAvailableSpace returns the amount minus the headroom)
+    my $raw_available =  fs::any::getAvailableSpace_raw($fstab) * 512 / 1.07;
+
     my $available = fs::any::getAvailableSpace($fstab, 'skip_mounted');
     die N("Not enough space available (%s available while %s are needed)",
-          formatXiB($available), formatXiB($total)) . "\n"
+          formatXiB($raw_available), formatXiB($needed)) . "\n"
       if $total > $available;
 
     umount_all($fstab);
