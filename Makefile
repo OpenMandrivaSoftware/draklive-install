@@ -1,5 +1,5 @@
 NAME = draklive-install
-VERSION = 1.35
+VERSION = 1.37
 
 dli_confdir = ${sysconfdir}/$(NAME).d
 dli_sysconfigdir = $(dli_confdir)/sysconfig
@@ -30,7 +30,7 @@ dist-svn:
 	rm -rf $(NAME)-$(VERSION) 
  
 dist-git: 
-	@git archive --prefix=$(NAME)-$(VERSION)/ HEAD | lzma >../$(NAME)-$(VERSION).tar.lzma; 
+	@git archive --prefix=$(NAME)-$(VERSION)/ HEAD | xz >../$(NAME)-$(VERSION).tar.xz;
 
 check:
 	rm -f po/draklive-install.pot

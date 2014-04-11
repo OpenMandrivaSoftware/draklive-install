@@ -5,4 +5,4 @@ Icon=live-install-icon
 Terminal=false
 Type=Application
 StartupNotify=true
-_Name=Install to Hard Disk
+_Name=Install on Hard Disk

@@ -2,9 +2,12 @@
 # to be sourced
 if grep -q '\binstall\b' /proc/cmdline; then
   /bin/systemctl stop crond.service &
-  . /etc/sysconfig/i18n
+  . /etc/locale.conf
   xset -dpms
   xset s 0 0
   /usr/sbin/draklive-install
-  sleep 1; reboot
+  sleep 1;
+  eject;
+  sleep 10;
+  reboot;
 fi

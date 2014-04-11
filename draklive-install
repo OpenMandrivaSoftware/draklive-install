@@ -111,7 +111,7 @@ sub display_start_message() {
     my $has_running_wm = to_bool($running_wm);   
     local $::isStandalone = $has_running_wm; # center me if run in xsetup.d script
     mygtk2::enable_quit_popup(1);
-    my $w = ugtk2->new(N("OpenMandriva LX Live"));
+    my $w = ugtk2->new(N("OpenMandriva Lx Live"));
     return if ($running_wm eq 'drakx-matchbox-window-manager');
     #ROSAOne-install icon does look like it's openclipart, so stay with it for now
     ugtk2::gtkadd($w->{window},
@@ -457,7 +457,7 @@ sub setup_bootloader {
         ]) or return 0;
 
         # Now let's rock and roll!
-        my $_wait = $in->wait_message('Bootloader', N("Please wait while the bootloader is being installed..."));
+        my $_wait = $in->wait_message(N("Bootloader"), N("Please wait while the bootloader is being installed..."));
 
         # Write down the options
         if (!update_grub_options('/mnt/install/etc/default/grub', \%options)) {
