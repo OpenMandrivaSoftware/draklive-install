@@ -22,7 +22,7 @@ dis: clean
 		echo "Unknown SCM (not SVN nor GIT)";\
 		exit 1; \
 	fi;
-	$(info $(NAME)-$(VERSION).tar.lzma is ready)
+	$(info $(NAME)-$(VERSION).tar.xz is ready)
  
 dist-svn: 
 	svn export -q -rBASE . $(NAME)-$(VERSION)
@@ -30,7 +30,7 @@ dist-svn:
 	rm -rf $(NAME)-$(VERSION) 
  
 dist-git: 
-	@git archive --prefix=$(NAME)-$(VERSION)/ HEAD | xz >../$(NAME)-$(VERSION).tar.xz;
+	@git archive --prefix=$(NAME)-$(VERSION)/ HEAD | xz -T0 >../$(NAME)-$(VERSION).tar.xz;
 
 check:
 	rm -f po/draklive-install.pot
