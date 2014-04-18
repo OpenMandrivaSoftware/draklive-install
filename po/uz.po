@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: draklive-install-uz\n"
-"POT-Creation-Date: 2012-10-22 13:47+0400\n"
+"POT-Creation-Date: 2014-03-19 20:25+0400\n"
 "PO-Revision-Date: 2009-12-18 20:48+0500\n"
 "Last-Translator: Nurali Abdurahmonov <mavnur@gmail.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -18,138 +18,162 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../draklive-install:111
-#, c-format
-msgid "OpenMandriva Live"
-msgstr "OpenMandriva Live"
-
-#: ../draklive-install:116
-#, c-format
-msgid "This wizard will help you to install the live distribution."
-msgstr "Ushbu usta OpenMandriva Linux tizimini oʻrnatishda yordam beradi."
-
-#: ../draklive-install:142 ../draklive-install:213 ../draklive-install:294
+#: ../draklive-install:84 ../draklive-install:219 ../draklive-install:315
+#: ../draklive-install:396
 #, c-format
 msgid "Please wait"
 msgstr "Iltimos kutib turing"
 
-#: ../draklive-install:163 ../draklive-install:175 ../draklive-install:272
-#: ../draklive-install:470 ../draklive-install:477 ../draklive-install:498
+#: ../draklive-install:122 ../draklive-install:132 ../draklive-install:241
+#: ../draklive-install:257 ../draklive-install:374 ../draklive-install:626
+#: ../draklive-install:638 ../draklive-install:670
 #, c-format
 msgid "Error"
 msgstr "Xato"
 
-#: ../draklive-install:175
+#: ../draklive-install:122
+#, c-format
+msgid "Failed to launch post-install setup. It will be started on next boot."
+msgstr ""
+
+#: ../draklive-install:132
+#, c-format
+msgid ""
+"Failed to prepare chroot for post-install setup. Post-install will be "
+"started on next boot."
+msgstr ""
+
+#: ../draklive-install:185
+#, c-format
+msgid "OpenMandriva Lx Live"
+msgstr "OpenMandriva Lx Live"
+
+#: ../draklive-install:193
+#, c-format
+msgid "This wizard will help you to install the live distribution."
+msgstr "Ushbu usta OpenMandriva Lx Linux tizimini oʻrnatishda yordam beradi."
+
+#: ../draklive-install:257
 #, c-format
 msgid "An error occurred"
 msgstr "Xato roʻy berdi"
 
-#: ../draklive-install:191
+#: ../draklive-install:293
 #, c-format
 msgid "Not enough space available (%s available while %s are needed)"
 msgstr "Xotira yetarli emas (mavjud — %s, kerak — %s)"
 
-#: ../draklive-install:246 ../draklive-install:604
+#: ../draklive-install:348 ../draklive-install:779
 #, c-format
 msgid "Copying in progress"
 msgstr "Nusxa olish davom etmoqda"
 
-#: ../draklive-install:272
+#: ../draklive-install:374
 #, c-format
 msgid "Unable to copy files to new root"
 msgstr "Fayllardan yangi root'ga nusxa koʻchirib boʻlmadi"
 
-#: ../draklive-install:369
+#: ../draklive-install:472
 #, c-format
 msgid " Mb\n"
 msgstr ""
 
-#: ../draklive-install:373
+#: ../draklive-install:476
 #, c-format
 msgid " Gb\n"
 msgstr ""
 
-#: ../draklive-install:444
+#: ../draklive-install:588
 #, c-format
 msgid "Bootloader main options"
 msgstr "OT yuklagichining asosiy parametrlari"
 
-#: ../draklive-install:447
+#: ../draklive-install:591 ../draklive-install:601
 #, c-format
 msgid "Bootloader"
 msgstr "OT yuklagichi"
 
-#: ../draklive-install:448
+#: ../draklive-install:592
 #, c-format
 msgid "Boot device"
 msgstr "Tizimni yuklash uskunasi"
 
-#: ../draklive-install:450
+#: ../draklive-install:594
 #, c-format
 msgid "Main options"
 msgstr "Asosiy parametrlar"
 
-#: ../draklive-install:451
+#: ../draklive-install:595
 #, c-format
 msgid "Delay before booting default image"
 msgstr "Andoza tasvirni yuklashdan oldingi kutish vaqti"
 
-#: ../draklive-install:452
+#: ../draklive-install:596
 #, c-format
 msgid "Disable UUID"
 msgstr ""
 
-#: ../draklive-install:456
+#: ../draklive-install:601
 #, c-format
 msgid "Please wait while Grub2 is being installed..."
 msgstr ""
 
-#: ../draklive-install:460
+#: ../draklive-install:610
 #, fuzzy, c-format
 msgid "Warning"
 msgstr "Diskni boʻlish"
 
-#: ../draklive-install:460
+#: ../draklive-install:610
 #, c-format
 msgid "Failed to update Grub2 configuration:"
 msgstr ""
 
-#: ../draklive-install:460
+#: ../draklive-install:610
 #, c-format
 msgid "Continuing with default settings."
 msgstr ""
 
-#: ../draklive-install:470
+#: ../draklive-install:626
 #, c-format
-msgid "Failed to prepare chroot for installing Grub2:"
+msgid "Failed to prepare chroot for installing Grub2. Try again?"
 msgstr ""
 
-#: ../draklive-install:470 ../draklive-install:477
+#: ../draklive-install:626 ../draklive-install:638
 #, c-format
-msgid "Try again?"
+msgid "Output log"
 msgstr ""
 
-#: ../draklive-install:477
+#: ../draklive-install:626
 #, c-format
-msgid "Failed to install Grub2:"
+msgid "Mount commands output"
 msgstr ""
 
-#: ../draklive-install:492
+#: ../draklive-install:638
+#, c-format
+msgid "Failed to install Grub2. Try again?"
+msgstr ""
+
+#: ../draklive-install:638
+#, c-format
+msgid "Grub2 installation output"
+msgstr ""
+
+#: ../draklive-install:660
 #, c-format
 msgid "Please wait while initrd is prepared"
 msgstr ""
 
-#: ../draklive-install:498
+#: ../draklive-install:670
 #, fuzzy, c-format
 msgid "Unable to copy initrd.img  to new /boot directory"
 msgstr "Fayllardan yangi root'ga nusxa koʻchirib boʻlmadi"
 
-#: ../draklive-install:502
+#: ../draklive-install:674
 #, c-format
 msgid "initrd.img has been created"
 msgstr ""
 
-#: ../draklive-install:531
+#: ../draklive-install:706
 #, c-format
 msgid ""
 "Please halt your computer, remove your live system, and restart your "
@@ -157,51 +181,51 @@ msgid ""
 msgstr ""
 "Kompyuterni oʻchiring, kompakt-diskni olib tashlab kompyuterni yana yoqing."
 
-#: ../draklive-install:533
+#: ../draklive-install:708
 #, c-format
 msgid ""
 "Your VNC connection will be dropped. Please reconnect after the computer is "
 "restarted."
 msgstr ""
 
-#: ../draklive-install:540
+#: ../draklive-install:715
 #, c-format
 msgid "Congratulations"
 msgstr "Tabriklaymiz"
 
-#: ../draklive-install:546
+#: ../draklive-install:721
 #, c-format
 msgid "Finish"
 msgstr "Tayyor"
 
-#: ../draklive-install:569
+#: ../draklive-install:744
 #, c-format
 msgid "Continue anyway?"
 msgstr "Bunga qaramasdan davom etishni istaysizmi?"
 
-#: ../draklive-install:574
+#: ../draklive-install:749
 #, c-format
 msgid "Quit without saving"
 msgstr "Saqlamasdan chiqish"
 
-#: ../draklive-install:574
+#: ../draklive-install:749
 #, c-format
 msgid "Quit without writing the partition table?"
 msgstr "Diskning qismlar jadvalini saqlamasdan chiqishni istaysizmi?"
 
-#: ../draklive-install:580
+#: ../draklive-install:755
 #, c-format
 msgid "Do you want to save /etc/fstab modifications"
 msgstr "/etc/fstab fayliga kiritilgan oʻzgarishlarni saqlashni istaysizmi?"
 
-#: ../draklive-install:587
+#: ../draklive-install:762
 #, c-format
 msgid "You need to reboot for the partition table modifications to take place"
 msgstr ""
 "Diskning qismlar jadvaliga kiritilgan oʻzgarishlar kuchga kirishi uchun "
 "kompyuterni oʻchirib-yoqish kerak."
 
-#: ../draklive-install:592
+#: ../draklive-install:767
 #, c-format
 msgid ""
 "You should format partition %s.\n"
@@ -212,13 +236,13 @@ msgstr ""
 "Aks holda %s ulanish nuqtasi fstab'da qayd etilmaydi.\n"
 "Shunga qaramasdan chiqishni istaysizmi?"
 
-#: ../rosa-draklive-install.desktop.in.h:1
-msgid "Install your OpenMandriva live system to disk"
-msgstr "OpenMandriva Live tizimini kompyuterning diskiga oʻrnatish"
-
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "LiveCD/DVD oʻrnatuvchisi"
+
+#: ../openmandriva-draklive-install.desktop.in.h:2
+msgid "Install your OpenMandriva Lx live system to disk"
+msgstr "OpenMandriva Lx Live tizimini kompyuterning diskiga oʻrnatish"
 
 #: ../draklive-install.desktop.in.h:1
 msgid "Install on Hard Disk"
@@ -342,12 +366,12 @@ msgstr ""
 
 #~ msgid ""
 #~ "Your Windows partition is too fragmented. Please reboot your computer "
-#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva Linux "
+#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva Lx Linux "
 #~ "installation."
 #~ msgstr ""
 #~ "Diskning Windows qismi juda ham fragmentlashgan. Iltimos kompyuterni "
 #~ "Windows ostida oʻchirib-yoqing va \"defrag\" dasturini ishga tushiring. "
-#~ "Shundan soʻng OpenMandriva Linux oʻrnatishni qayta ishga tushiring."
+#~ "Shundan soʻng OpenMandriva Lx Linux oʻrnatishni qayta ishga tushiring."
 
 #~ msgid ""
 #~ "WARNING!\n"
@@ -409,7 +433,7 @@ msgstr ""
 #~ msgid ""
 #~ "You have more than one hard drive, which one do you install linux on?"
 #~ msgstr ""
-#~ "Sizda bittadan koʻp qattiq disk mavjud. Ularni qaysiga OpenMandriva Linux OTni "
+#~ "Sizda bittadan koʻp qattiq disk mavjud. Ularni qaysiga OpenMandriva Lx Linux OTni "
 #~ "oʻrnatishni istaysiz?"
 
 #~ msgid "ALL existing partitions and their data will be lost on drive %s"
