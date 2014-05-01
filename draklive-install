@@ -194,7 +194,7 @@ sub ask_partitions {
 
     # add the headroom to the size for display of how much we really need
     my $minAvailableSize = 65 * sqr(1024);
-    my $needed + max(0.1 * $total, $minAvailableSize);
+    my $needed = $needed + max(0.1 * $total, $minAvailableSize);
 
     # report the actual size asked for (getAvailableSpace returns the amount minus the headroom)
     my $raw_available =  fs::any::getAvailableSpace_raw($fstab) * 512 / 1.07;
