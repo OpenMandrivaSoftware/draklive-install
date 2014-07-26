@@ -117,7 +117,7 @@ sub display_start_message() {
     ugtk2::gtkadd($w->{window},
                   ugtk2::gtkcreate_img("live-install"),
                   ugtk2::gtknew('Label', height => 5),
-                  N("Welcome! Let's get started installing OpenMandriva LX."),
+                  N("Welcome! Let's get started installing OpenMandriva Lx."),
                   ugtk2::create_okcancel($w));
     $w->{ok}->grab_focus;
     $w->main;
