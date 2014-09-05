@@ -452,8 +452,8 @@ sub setup_bootloader {
     my %boot_devices_info = map { $_->{'file'} => format_hdd_info($_) } @{$all_hds->{'hds'}};
 
     # Trying to install Grub2 again and again until success or excplicit rejection from user
-    my $install_err = 1;
-    while ($install_err) {
+    my $completed = 0;
+    while (!$completed) {
         # Let the user set all the parameters for installing bootloader
         $in->ask_from_({ title => N("Bootloader main options"),
                          interactive_help_id => 'setupBootloader',
@@ -477,23 +477,25 @@ sub setup_bootloader {
         # To install Grub2 we chroot into the freshly installed ROSA and perform installation from there,
         # otherwise strange errors happen.
         # So, first we try to prepare chroot environment by mounting system-related mount points
-        if (system('mount --bind /proc /mnt/install/proc && mount --bind /sys /mnt/install/sys') != 0) {
+        if (system("(mount --bind /proc $::prefix/proc && mount --bind /sys $::prefix/sys && mount --bind /dev $::prefix/dev) >/tmp/draklive-install.log 2>&1") != 0) {
             # Failure, ask what to do now (exit Grub2 installation or try again)
-            # Reuse $install_err as user's reply: Yes -> $install_err==1 -> repeat the loop
             # (Would like to use redo here, but it would skip the continue block, and I need it to run)
-            $install_err = $in->ask_yesorno(N("Error"), N("Failed to prepare chroot for installing Grub2:") . " $!\n" . N("Try again?"), 1);
+            $completed = !any::ask_yesorno_showlog($in, N("Error"), N("Failed to prepare chroot for installing Grub2. Try again?"), '/tmp/draklive-install.log', N("Output log"), N("Mount commands output"));
             next;
         }
 
         # Now install the Grub2 itself and create menu configuration for it.
-        $install_err = system("chroot /mnt/install /bin/sh -c 'echo boot=$install_device > /boot/grub2/drakboot.conf && grub2-install $install_device && grub2-mkconfig -o /boot/grub2/grub.cfg'");
-        if ($install_err != 0) {
-            $install_err = $in->ask_yesorno(N("Error"), N("Failed to install Grub2:") . " $!\n" . N("Try again?"), 1);
+        if (system("chroot /mnt/install /bin/sh -c 'grub2-install $install_device && grub2-mkconfig -o /boot/grub2/grub.cfg && if [ -d /boot/efi/EFI/omdv ]; then cp -f /boot/grub2/grub.cfg /boot/efi/EFI/omdv/grub.cfg; fi' >/tmp/draklive-install.log 2>&1") != 0) {
+            $completed = !any::ask_yesorno_showlog($in, N("Error"), N("Failed to install Grub2. Try again?"), '/tmp/draklive-install.log', N("Output log"), N("Grub2 installation output"));
             next;
         }
+
+        # Everything went fine, exit the loop
+        $completed = 1;
     } continue {
         # After each iteration unmount the system-related mount points to avoid multi-mounts
-        system('umount /mnt/install/proc; umount /mnt/install/sys');
+        system("umount $::prefix/proc; umount $::prefix/sys; umount $::prefix/dev");
+        unlink('/tmp/draklive-install.log');
     }
 }
 
