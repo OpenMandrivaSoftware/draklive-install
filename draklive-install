@@ -352,8 +352,9 @@ sub complete_install {
     clean_harddrake_hds($::prefix);
 
     # enable back some disabled services
-    require services;
-    services::start_service_on_boot($_) foreach chomp_(cat_('/etc/draklive-install.d/services'));
+    # (tpg) disable services call on install
+    # require services;
+    # services::start_service_on_boot($_) foreach chomp_(cat_('/etc/draklive-install.d/services'));
 
 
     sync_logs();
@@ -371,10 +372,6 @@ sub format_hdd_info {
 		# Collect printable bits of information into array (only two at the moment, but who knows
 		# what we'll wish to add here in the future)
 		my @data = ();
-		if ($_->{'info'}) {
-			# User-friendly name of the disk (manufacturer, model or whatever)
-			push @data, $_->{'info'};
-		}
 		if ($_->{'totalsectors'}) {
 			# Size of the disk in Megabytes
 			my $size = $_->{'totalsectors'} / 2048;
@@ -387,6 +384,10 @@ sub format_hdd_info {
 			# Reusing existing translation units " Mb\n" and " Gb\n", but strip them of "\n"
 			$unit =~ s/\n//g;
 			push @data, (int($size + 0.5) . $unit);
+		}
+		if ($_->{'info'}) {
+			# User-friendly name of the disk (manufacturer, model or whatever)
+			push @data, $_->{'info'};
 		}
 		# And finally, join together all those bits of information we were able to collect
 		$descr .= ' (' . join(', ', @data) . ')';
