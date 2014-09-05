@@ -320,14 +320,15 @@ sub complete_install {
                $live_user_desktop . '/draklive-copy-wizard.desktop',
                $live_user_desktop . '/draklive-install.desktop'),
            );
+
+    foreach (glob('/etc/draklive-install.d/run.d/*')) {
+	    run_program::rooted($::prefix, $_);
+    }
+
     {
         #- do not allow update-menus to create home directory with invalid perms
         local $ENV{HOME} = '/root';
         system('chroot', $::prefix, 'rpm', '-e', 'draklive-install');
-    }
-
-    foreach (glob('/etc/draklive-install.d/run.d/*')) {
-	    run_program::rooted($::prefix, $_);
     }
 
     #- copy sysconfig files for first boot
