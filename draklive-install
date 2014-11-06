@@ -77,7 +77,8 @@ sub install_live() {
     copy_root($in, $copy_source);
     complete_install($in, $all_hds);
     setup_bootloader($in, $all_hds, $fstab);
-    setup_initrd($in);
+    # setup_initrd creates /boot/initrd.img which seems to be unused.
+    # setup_initrd($in);
     finish_installation($fstab);
     system('sync');
     display_end_message($in);
