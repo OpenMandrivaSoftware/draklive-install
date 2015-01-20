@@ -239,10 +239,10 @@ sub build_copy_command {
     # xz compression:   33:25
     # So, obviously, it's better to leave it uncompressed.
     join(' ',
-	'tar', 'c', '--one-file-system', '--exclude=/etc/localtime','--exclude=/etc/sysconfig/clock',
+	'tar', 'cf -', '--one-file-system', '--exclude=/etc/localtime','--exclude=/etc/sysconfig/clock',
 	'-C', $source, '.',
 	'|',
-	'tar', 'xvv', '-C', $dest,
+	'tar', 'xvvf -', '-C', $dest,
      );
 }
 
