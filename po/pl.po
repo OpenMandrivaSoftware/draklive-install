@@ -124,22 +124,22 @@ msgstr ""
 #: ../draklive-install:601
 #, c-format
 msgid "Please wait while Grub2 is being installed..."
-msgstr ""
+msgstr "Poczekaj program rozruchowy jest instalowany..."
 
 #: ../draklive-install:610
 #, c-format
 msgid "Warning"
-msgstr ""
+msgstr "Uwaga"
 
 #: ../draklive-install:610
 #, c-format
 msgid "Failed to update Grub2 configuration:"
-msgstr ""
+msgstr "Nie udało się zaktualizować konfiguracji Grub2:"
 
 #: ../draklive-install:610
 #, c-format
 msgid "Continuing with default settings."
-msgstr ""
+msgstr "Kontunuuje z ustawieniami domyślnymi"
 
 #: ../draklive-install:626
 #, c-format
@@ -159,7 +159,7 @@ msgstr ""
 #: ../draklive-install:638
 #, c-format
 msgid "Failed to install Grub2. Try again?"
-msgstr ""
+msgstr "Nie udało się zainstalować Grub2. Spróbuj jeszcze raz?"
 
 #: ../draklive-install:638
 #, c-format
