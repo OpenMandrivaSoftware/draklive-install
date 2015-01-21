@@ -346,6 +346,14 @@ sub complete_install {
                       'X-:0-Greeter' => (PreselectUser => 'None', DefaultUser => '')) if -f $kdm_cfg;
     my $autologin = any::get_autologin();
     delete $autologin->{user};
+    
+    #- unselect live user in sddm
+    my $sddm_cfg = ($::prefix . '/etc/sddm.conf');
+    update_gnomekderc($::prefix . $sddm_cfg,
+                      'Autologin' => (Session => '', User => '')) if -f $sddm_cfg;
+    my $autologin = any::get_autologin();
+    delete $autologin->{user};
+    
     any::set_autologin($in->do_pkgs, $autologin);
 
     #- allow to install doc in disk install
