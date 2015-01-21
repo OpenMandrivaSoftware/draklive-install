@@ -48,8 +48,8 @@ msgstr ""
 
 #: ../draklive-install:185
 #, c-format
-msgid "OpenMandriva Lx Live"
-msgstr "OpenMandriva Lx Live"
+msgid "ROSA Live"
+msgstr ""
 
 #: ../draklive-install:193
 #, c-format
@@ -239,17 +239,21 @@ msgstr ""
 "Anders kan er geen regel voor koppelpunt %s in fstab worden gezet.\n"
 "Toch afsluiten?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../rosa-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Live installeren"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
-msgid "Install your OpenMandriva Lx live system to disk"
+#: ../rosa-draklive-install.desktop.in.h:2
+#, fuzzy
+msgid "Install your ROSA live system to disk"
 msgstr "Het OpenMandriva Lx live systeem op de harde schijf installeren"
 
 #: ../draklive-install.desktop.in.h:1
 msgid "Install on Hard Disk"
 msgstr ""
+
+#~ msgid "OpenMandriva Lx Live"
+#~ msgstr "OpenMandriva Lx Live"
 
 #~ msgid "Computing total size"
 #~ msgstr "Uitrekenen totale grootte"
@@ -367,8 +371,8 @@ msgstr ""
 
 #~ msgid ""
 #~ "Your Windows partition is too fragmented. Please reboot your computer "
-#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva Lx Linux "
-#~ "installation."
+#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva "
+#~ "Lx Linux installation."
 #~ msgstr ""
 #~ "Uw Windows-partitie is te gefragmenteerd. Start uw computer opnieuw op "
 #~ "onder Windows, gebruik het ``defrag''-hulpprogramma, en herstart "

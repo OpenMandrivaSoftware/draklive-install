@@ -47,8 +47,8 @@ msgstr ""
 
 #: ../draklive-install:185
 #, c-format
-msgid "OpenMandriva Lx Live"
-msgstr "OpenMandriva Lx Live"
+msgid "ROSA Live"
+msgstr ""
 
 #: ../draklive-install:193
 #, c-format
@@ -236,17 +236,21 @@ msgstr ""
 "Annars verður engin færsla fyrir tengipunkt %s skráð í fstab.\n"
 "Hætta samt?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../rosa-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Live innsetning"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
-msgid "Install your OpenMandriva Lx live system to disk"
+#: ../rosa-draklive-install.desktop.in.h:2
+#, fuzzy
+msgid "Install your ROSA live system to disk"
 msgstr "Setja OpenMandriva Lx-live kerfi á disk"
 
 #: ../draklive-install.desktop.in.h:1
 msgid "Install on Hard Disk"
 msgstr ""
+
+#~ msgid "OpenMandriva Lx Live"
+#~ msgstr "OpenMandriva Lx Live"
 
 #~ msgid "Computing total size"
 #~ msgstr "Reikna heildarstærð"

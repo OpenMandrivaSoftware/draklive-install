@@ -43,7 +43,7 @@ msgstr ""
 
 #: ../draklive-install:185
 #, c-format
-msgid "OpenMandriva Lx Live"
+msgid "ROSA Live"
 msgstr ""
 
 #: ../draklive-install:193
@@ -230,12 +230,12 @@ msgid ""
 "Quit anyway?"
 msgstr ""
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../rosa-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr ""
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
-msgid "Install your OpenMandriva Lx live system to disk"
+#: ../rosa-draklive-install.desktop.in.h:2
+msgid "Install your ROSA live system to disk"
 msgstr ""
 
 #: ../draklive-install.desktop.in.h:1

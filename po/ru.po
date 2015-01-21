@@ -37,19 +37,23 @@ msgstr "Ошибка"
 #: ../draklive-install:122
 #, c-format
 msgid "Failed to launch post-install setup. It will be started on next boot."
-msgstr "Не удалось выполнить настройку установленной системы. Она будет запущена при первой загрузке."
+msgstr ""
+"Не удалось выполнить настройку установленной системы. Она будет запущена при "
+"первой загрузке."
 
 #: ../draklive-install:132
 #, c-format
 msgid ""
 "Failed to prepare chroot for post-install setup. Post-install will be "
 "started on next boot."
-msgstr "Не удалось подготовить окружение для настройки установленной системы. Настройка будет запущена при первой загрузке."
+msgstr ""
+"Не удалось подготовить окружение для настройки установленной системы. "
+"Настройка будет запущена при первой загрузке."
 
 #: ../draklive-install:185
 #, c-format
-msgid "OpenMandriva Lx Live"
-msgstr "OpenMandriva Lx Live"
+msgid "ROSA Live"
+msgstr ""
 
 #: ../draklive-install:193
 #, c-format
@@ -242,17 +246,21 @@ msgstr ""
 "Иначе в fstab не будет записи о точке монтирования %s.\n"
 "Всё равно выйти?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../rosa-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Установщик в режиме Live"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
-msgid "Install your OpenMandriva Lx live system to disk"
+#: ../rosa-draklive-install.desktop.in.h:2
+#, fuzzy
+msgid "Install your ROSA live system to disk"
 msgstr "Установить дистрибутив на жёсткий диск"
 
 #: ../draklive-install.desktop.in.h:1
 msgid "Install on Hard Disk"
 msgstr "Установка на жесткий диск"
+
+#~ msgid "OpenMandriva Lx Live"
+#~ msgstr "OpenMandriva Lx Live"
 
 #~ msgid "Try again?"
 #~ msgstr "Повторить попытку?"
@@ -381,11 +389,12 @@ msgstr "Установка на жесткий диск"
 
 #~ msgid ""
 #~ "Your Windows partition is too fragmented. Please reboot your computer "
-#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva Lx Linux "
-#~ "installation."
+#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva "
+#~ "Lx Linux installation."
 #~ msgstr ""
 #~ "Раздел Windows слишком фрагментирован. Загрузитесь в Windows, запустите "
-#~ "утилиту \"defrag\", а затем повторно запустите установку OpenMandriva Lx Linux."
+#~ "утилиту \"defrag\", а затем повторно запустите установку OpenMandriva Lx "
+#~ "Linux."
 
 #~ msgid ""
 #~ "WARNING!\n"

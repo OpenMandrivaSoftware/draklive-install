@@ -49,8 +49,8 @@ msgstr ""
 
 #: ../draklive-install:185
 #, c-format
-msgid "OpenMandriva Lx Live"
-msgstr "ماندريفا الحيّ"
+msgid "ROSA Live"
+msgstr ""
 
 #: ../draklive-install:193
 #, c-format
@@ -237,17 +237,21 @@ msgstr ""
 "إن لم تفعل فلن يسجّل أي مُدخل لنقطة الضم %s في fstab.\n"
 "أأخرج على أية حال؟"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../rosa-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "المُثبِّت الحي"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
-msgid "Install your OpenMandriva Lx live system to disk"
+#: ../rosa-draklive-install.desktop.in.h:2
+#, fuzzy
+msgid "Install your ROSA live system to disk"
 msgstr "ثبت نظام ماندريفا الحي على قرصك"
 
 #: ../draklive-install.desktop.in.h:1
 msgid "Install on Hard Disk"
 msgstr ""
+
+#~ msgid "OpenMandriva Lx Live"
+#~ msgstr "ماندريفا الحيّ"
 
 #~ msgid "Computing total size"
 #~ msgstr "الحجم الكُلي يُحسب"

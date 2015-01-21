@@ -43,7 +43,7 @@ msgstr ""
 
 #: ../draklive-install:185
 #, c-format
-msgid "OpenMandriva Lx Live"
+msgid "ROSA Live"
 msgstr ""
 
 #: ../draklive-install:193
@@ -230,12 +230,12 @@ msgid ""
 "Quit anyway?"
 msgstr ""
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../rosa-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr ""
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
-msgid "Install your OpenMandriva Lx live system to disk"
+#: ../rosa-draklive-install.desktop.in.h:2
+msgid "Install your ROSA live system to disk"
 msgstr ""
 
 #: ../draklive-install.desktop.in.h:1
@@ -354,8 +354,8 @@ msgstr ""
 
 #~ msgid ""
 #~ "Your Windows partition is too fragmented. Please reboot your computer "
-#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva Lx Linux "
-#~ "installation."
+#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva "
+#~ "Lx Linux installation."
 #~ msgstr ""
 #~ "आपका विण्डो विभाजन अति खंडित है । कृपया अपने कम्प्यूटर को विण्डो के अन्तर्गत पुनः आरम्भ "
 #~ "करें, ``defrag'' कार्यक्रम को चलायें, और फ़िर मैनड्रिव लिनक्स संसाधन को पुनः आरम्भ करें ।"

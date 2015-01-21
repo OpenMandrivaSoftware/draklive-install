@@ -45,13 +45,14 @@ msgstr ""
 
 #: ../draklive-install:185
 #, c-format
-msgid "OpenMandriva Lx Live"
-msgstr "OpenMandriva Lx Live"
+msgid "ROSA Live"
+msgstr ""
 
 #: ../draklive-install:193
 #, c-format
 msgid "This wizard will help you to install the live distribution."
-msgstr "このウィザードは OpenMandriva Lx Live をインストールするお手伝いをします。"
+msgstr ""
+"このウィザードは OpenMandriva Lx Live をインストールするお手伝いをします。"
 
 #: ../draklive-install:257
 #, c-format
@@ -233,17 +234,21 @@ msgstr ""
 "そうしないと、マウントポイント %s のエントリが fstab に書き込まれません。\n"
 "このまま終了しますか？"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../rosa-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Live インストール"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
-msgid "Install your OpenMandriva Lx live system to disk"
+#: ../rosa-draklive-install.desktop.in.h:2
+#, fuzzy
+msgid "Install your ROSA live system to disk"
 msgstr "OpenMandriva Lx Live システムをディスクにインストール"
 
 #: ../draklive-install.desktop.in.h:1
 msgid "Install on Hard Disk"
 msgstr ""
+
+#~ msgid "OpenMandriva Lx Live"
+#~ msgstr "OpenMandriva Lx Live"
 
 #~ msgid "Computing total size"
 #~ msgstr "合計サイズを計算中"
@@ -359,12 +364,13 @@ msgstr ""
 
 #~ msgid ""
 #~ "Your Windows partition is too fragmented. Please reboot your computer "
-#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva Lx Linux "
-#~ "installation."
+#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva "
+#~ "Lx Linux installation."
 #~ msgstr ""
 #~ "Windows パーティションが断片化しすぎています。再起動して Windows を立ち上"
 #~ "げ、\n"
-#~ "デフラグを実行してください。その後再起動して OpenMandriva Lx Linux をインストール\n"
+#~ "デフラグを実行してください。その後再起動して OpenMandriva Lx Linux をイン"
+#~ "ストール\n"
 #~ "してください。"
 
 #~ msgid ""

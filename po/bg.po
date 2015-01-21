@@ -47,8 +47,8 @@ msgstr ""
 
 #: ../draklive-install:185
 #, c-format
-msgid "OpenMandriva Lx Live"
-msgstr "Мандрива Live"
+msgid "ROSA Live"
+msgstr ""
 
 #: ../draklive-install:193
 #, c-format
@@ -235,17 +235,20 @@ msgstr ""
 "Иначе ... %s няма да бъде вписан в fstab.\n"
 "Изход въпреки всичко?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../rosa-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr ""
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
-msgid "Install your OpenMandriva Lx live system to disk"
+#: ../rosa-draklive-install.desktop.in.h:2
+msgid "Install your ROSA live system to disk"
 msgstr ""
 
 #: ../draklive-install.desktop.in.h:1
 msgid "Install on Hard Disk"
 msgstr ""
+
+#~ msgid "OpenMandriva Lx Live"
+#~ msgstr "Мандрива Live"
 
 #~ msgid "Computing total size"
 #~ msgstr "Пресмятане на общия размер"
@@ -362,8 +365,8 @@ msgstr ""
 
 #~ msgid ""
 #~ "Your Windows partition is too fragmented. Please reboot your computer "
-#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva Lx Linux "
-#~ "installation."
+#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva "
+#~ "Lx Linux installation."
 #~ msgstr ""
 #~ "Вашият Windows дял е много фрагментиран, моля първо стартирайте ''defrag''"
 

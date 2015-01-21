@@ -51,8 +51,8 @@ msgstr ""
 
 #: ../draklive-install:185
 #, c-format
-msgid "OpenMandriva Lx Live"
-msgstr "OpenMandriva Lx-и Фаъолона"
+msgid "ROSA Live"
+msgstr ""
 
 #: ../draklive-install:193
 #, c-format
@@ -244,17 +244,20 @@ msgstr ""
 "намешавад.\n"
 "Ба ҳар ҳол бароям?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../rosa-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr ""
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
-msgid "Install your OpenMandriva Lx live system to disk"
+#: ../rosa-draklive-install.desktop.in.h:2
+msgid "Install your ROSA live system to disk"
 msgstr ""
 
 #: ../draklive-install.desktop.in.h:1
 msgid "Install on Hard Disk"
 msgstr ""
+
+#~ msgid "OpenMandriva Lx Live"
+#~ msgstr "OpenMandriva Lx-и Фаъолона"
 
 #~ msgid "Computing total size"
 #~ msgstr "Ҳисобкунии андозаи ҳамагӣ"
@@ -374,12 +377,13 @@ msgstr ""
 
 #~ msgid ""
 #~ "Your Windows partition is too fragmented. Please reboot your computer "
-#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva Lx Linux "
-#~ "installation."
+#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva "
+#~ "Lx Linux installation."
 #~ msgstr ""
 #~ "Қисми Windows-и шумо бениҳоят тика гардидааст. Лутфан, компютери худро "
 #~ "дар зери Windows аз сари нав оғоз намоед, ``defrag''-ро ба кор андозед ва "
-#~ "сониян такроран коргузории OpenMandriva Lx Linux-ро мавриди истифодабарӣ қарор диҳед."
+#~ "сониян такроран коргузории OpenMandriva Lx Linux-ро мавриди истифодабарӣ "
+#~ "қарор диҳед."
 
 #~ msgid ""
 #~ "WARNING!\n"

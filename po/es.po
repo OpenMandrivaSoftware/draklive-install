@@ -48,8 +48,8 @@ msgstr ""
 
 #: ../draklive-install:185
 #, c-format
-msgid "OpenMandriva Lx Live"
-msgstr "OpenMandriva Lx Live"
+msgid "ROSA Live"
+msgstr ""
 
 #: ../draklive-install:193
 #, c-format
@@ -241,17 +241,21 @@ msgstr ""
 "montaje %s.\n"
 "¿Salir de todas formas?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../rosa-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Instalación Live"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
-msgid "Install your OpenMandriva Lx live system to disk"
+#: ../rosa-draklive-install.desktop.in.h:2
+#, fuzzy
+msgid "Install your ROSA live system to disk"
 msgstr "Instalar sistema live de OpenMandriva Lx en disco"
 
 #: ../draklive-install.desktop.in.h:1
 msgid "Install on Hard Disk"
 msgstr "Instalar en el Disco Duro"
+
+#~ msgid "OpenMandriva Lx Live"
+#~ msgstr "OpenMandriva Lx Live"
 
 #~ msgid "Computing total size"
 #~ msgstr "Calculando el tamaño total"
@@ -369,8 +373,8 @@ msgstr "Instalar en el Disco Duro"
 
 #~ msgid ""
 #~ "Your Windows partition is too fragmented. Please reboot your computer "
-#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva Lx Linux "
-#~ "installation."
+#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva "
+#~ "Lx Linux installation."
 #~ msgstr ""
 #~ "Su partición Windows está muy fragmentada, por favor primero ejecute "
 #~ "\"defrag\""

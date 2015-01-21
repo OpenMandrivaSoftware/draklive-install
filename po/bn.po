@@ -46,8 +46,8 @@ msgstr ""
 
 #: ../draklive-install:185
 #, c-format
-msgid "OpenMandriva Lx Live"
-msgstr "OpenMandriva Lx লাইভ"
+msgid "ROSA Live"
+msgstr ""
 
 #: ../draklive-install:193
 #, c-format
@@ -237,17 +237,20 @@ msgstr ""
 "অন্যথা fstab এ মাউন্ট পয়েন্ট %s এর কোন এন্ট্রি লেখা হবে না।\n"
 "তবুও বের হয়ে যাব কি?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../rosa-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr ""
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
-msgid "Install your OpenMandriva Lx live system to disk"
+#: ../rosa-draklive-install.desktop.in.h:2
+msgid "Install your ROSA live system to disk"
 msgstr ""
 
 #: ../draklive-install.desktop.in.h:1
 msgid "Install on Hard Disk"
 msgstr ""
+
+#~ msgid "OpenMandriva Lx Live"
+#~ msgstr "OpenMandriva Lx লাইভ"
 
 #~ msgid "Computing total size"
 #~ msgstr "সর্বমোট আকার পরিমাপ করা হচ্ছে"
@@ -361,8 +364,8 @@ msgstr ""
 
 #~ msgid ""
 #~ "Your Windows partition is too fragmented. Please reboot your computer "
-#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva Lx Linux "
-#~ "installation."
+#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva "
+#~ "Lx Linux installation."
 #~ msgstr ""
 #~ "আপনার উইন্ডোজের পার্টিশনটি প্রচন্ড অসম। অনুগ্রহ করে আপনার কম্পিউটারটি উইন্ডোজে রি-"
 #~ "বুট করে, ``defrag'' ইউটিলিটি চালান, পরে  রি-ষ্টার্ট করে আবার মেনড্রক ইনস্টলেশন "

@@ -56,8 +56,8 @@ msgstr ""
 
 #: ../draklive-install:185
 #, c-format
-msgid "OpenMandriva Lx Live"
-msgstr "OpenMandriva Lx Live"
+msgid "ROSA Live"
+msgstr ""
 
 #: ../draklive-install:193
 #, c-format
@@ -190,7 +190,9 @@ msgstr ""
 msgid ""
 "Please halt your computer, remove your live system, and restart your "
 "computer."
-msgstr "Por favor, desligue o computador, remova o CD OpenMandriva Lx Live e reinicie."
+msgstr ""
+"Por favor, desligue o computador, remova o CD OpenMandriva Lx Live e "
+"reinicie."
 
 #: ../draklive-install:708
 #, c-format
@@ -248,17 +250,21 @@ msgstr ""
 "fstab.\n"
 "Sair mesmo assim ?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../rosa-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Instalador Live"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
-msgid "Install your OpenMandriva Lx live system to disk"
+#: ../rosa-draklive-install.desktop.in.h:2
+#, fuzzy
+msgid "Install your ROSA live system to disk"
 msgstr "Instalar seu sistema OpenMandriva Lx live para o HD"
 
 #: ../draklive-install.desktop.in.h:1
 msgid "Install on Hard Disk"
 msgstr "Instalar no Disco Rígido"
+
+#~ msgid "OpenMandriva Lx Live"
+#~ msgstr "OpenMandriva Lx Live"
 
 #~ msgid "Computing total size"
 #~ msgstr "Calculando tamanho total..."

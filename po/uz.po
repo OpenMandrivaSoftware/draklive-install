@@ -45,8 +45,8 @@ msgstr ""
 
 #: ../draklive-install:185
 #, c-format
-msgid "OpenMandriva Lx Live"
-msgstr "OpenMandriva Lx Live"
+msgid "ROSA Live"
+msgstr ""
 
 #: ../draklive-install:193
 #, c-format
@@ -236,17 +236,21 @@ msgstr ""
 "Aks holda %s ulanish nuqtasi fstab'da qayd etilmaydi.\n"
 "Shunga qaramasdan chiqishni istaysizmi?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../rosa-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "LiveCD/DVD oʻrnatuvchisi"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
-msgid "Install your OpenMandriva Lx live system to disk"
+#: ../rosa-draklive-install.desktop.in.h:2
+#, fuzzy
+msgid "Install your ROSA live system to disk"
 msgstr "OpenMandriva Lx Live tizimini kompyuterning diskiga oʻrnatish"
 
 #: ../draklive-install.desktop.in.h:1
 msgid "Install on Hard Disk"
 msgstr ""
+
+#~ msgid "OpenMandriva Lx Live"
+#~ msgstr "OpenMandriva Lx Live"
 
 #~ msgid "Computing total size"
 #~ msgstr "Umumiy hajm hisoblanmoqda"
@@ -366,8 +370,8 @@ msgstr ""
 
 #~ msgid ""
 #~ "Your Windows partition is too fragmented. Please reboot your computer "
-#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva Lx Linux "
-#~ "installation."
+#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva "
+#~ "Lx Linux installation."
 #~ msgstr ""
 #~ "Diskning Windows qismi juda ham fragmentlashgan. Iltimos kompyuterni "
 #~ "Windows ostida oʻchirib-yoqing va \"defrag\" dasturini ishga tushiring. "
@@ -433,8 +437,8 @@ msgstr ""
 #~ msgid ""
 #~ "You have more than one hard drive, which one do you install linux on?"
 #~ msgstr ""
-#~ "Sizda bittadan koʻp qattiq disk mavjud. Ularni qaysiga OpenMandriva Lx Linux OTni "
-#~ "oʻrnatishni istaysiz?"
+#~ "Sizda bittadan koʻp qattiq disk mavjud. Ularni qaysiga OpenMandriva Lx "
+#~ "Linux OTni oʻrnatishni istaysiz?"
 
 #~ msgid "ALL existing partitions and their data will be lost on drive %s"
 #~ msgstr "%s diskning barcha qismlari va ulardagi barcha maʼlumot oʻchiriladi"

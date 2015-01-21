@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
-# 
+#
 # Translators:
 # Maik Wagner <maikwagner@yahoo.com>, 2015
 msgid ""
@@ -9,11 +9,12 @@ msgstr ""
 "POT-Creation-Date: 2014-03-19 20:25+0400\n"
 "PO-Revision-Date: 2015-01-20 17:54+0000\n"
 "Last-Translator: Maik Wagner <maikwagner@yahoo.com>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/openmandriva-linux/language/de/)\n"
+"Language-Team: German (http://www.transifex.com/projects/p/openmandriva-"
+"linux/language/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../draklive-install:84 ../draklive-install:219 ../draklive-install:315
@@ -32,14 +33,18 @@ msgstr "Fehler"
 #: ../draklive-install:122
 #, c-format
 msgid "Failed to launch post-install setup. It will be started on next boot."
-msgstr "Fehler beim Starten des post-install Setups. Es wird beim nächsten Booten gestartet."
+msgstr ""
+"Fehler beim Starten des post-install Setups. Es wird beim nächsten Booten "
+"gestartet."
 
 #: ../draklive-install:132
 #, c-format
 msgid ""
 "Failed to prepare chroot for post-install setup. Post-install will be "
 "started on next boot."
-msgstr "Fehler bei der Vorbereitung von chroot für die post-install Einrichtung. Post-install wird beim nächsten Booten gestartet."
+msgstr ""
+"Fehler bei der Vorbereitung von chroot für die post-install Einrichtung. "
+"Post-install wird beim nächsten Booten gestartet."
 
 #: ../draklive-install:185
 #, c-format
@@ -49,7 +54,8 @@ msgstr "OpenMandriva Live"
 #: ../draklive-install:193
 #, c-format
 msgid "This wizard will help you to install the live distribution."
-msgstr "Dieser Assistent wird Ihnen helfen, die Live-Distribution zu installieren."
+msgstr ""
+"Dieser Assistent wird Ihnen helfen, die Live-Distribution zu installieren."
 
 #: ../draklive-install:257
 #, c-format
@@ -134,7 +140,9 @@ msgstr "Fahre mit Standardeinstellungen fort."
 #: ../draklive-install:626
 #, c-format
 msgid "Failed to prepare chroot for installing Grub2. Try again?"
-msgstr "Fehler bei der Vorbereitung von chroot für die Installation von Grub2. Nochmals versuchen?"
+msgstr ""
+"Fehler bei der Vorbereitung von chroot für die Installation von Grub2. "
+"Nochmals versuchen?"
 
 #: ../draklive-install:626 ../draklive-install:638
 #, c-format
@@ -164,7 +172,8 @@ msgstr "Bitte warten während initrd vorbereitet wird"
 #: ../draklive-install:670
 #, c-format
 msgid "Unable to copy initrd.img  to new /boot directory"
-msgstr "Versuch, initrd.img ins neue /boot-Verzeichnis zu kopieren fehlgeschlagen"
+msgstr ""
+"Versuch, initrd.img ins neue /boot-Verzeichnis zu kopieren fehlgeschlagen"
 
 #: ../draklive-install:674
 #, c-format
@@ -176,14 +185,18 @@ msgstr "initrd.img wurde erstellt"
 msgid ""
 "Please halt your computer, remove your live system, and restart your "
 "computer."
-msgstr "Bitte fahren Sie den Rechner herunter, entfernen Sie Ihr Livesystem und starten Sie Ihren Rechner neu."
+msgstr ""
+"Bitte fahren Sie den Rechner herunter, entfernen Sie Ihr Livesystem und "
+"starten Sie Ihren Rechner neu."
 
 #: ../draklive-install:708
 #, c-format
 msgid ""
 "Your VNC connection will be dropped. Please reconnect after the computer is "
 "restarted."
-msgstr "Ihre VNC-Verbindungen werden beendet. Bitte verbinden Sie sich neu, nachdem der Rechner neu gestartet ist."
+msgstr ""
+"Ihre VNC-Verbindungen werden beendet. Bitte verbinden Sie sich neu, nachdem "
+"der Rechner neu gestartet ist."
 
 #: ../draklive-install:715
 #, c-format
@@ -218,7 +231,9 @@ msgstr "Möchten Sie die /etc/fstab Modifikationen sichern"
 #: ../draklive-install:762
 #, c-format
 msgid "You need to reboot for the partition table modifications to take place"
-msgstr "Sie müssen neu starten damit die Partitionstabellenmodifikationen angewandt werden"
+msgstr ""
+"Sie müssen neu starten damit die Partitionstabellenmodifikationen angewandt "
+"werden"
 
 #: ../draklive-install:767
 #, c-format
@@ -226,7 +241,10 @@ msgid ""
 "You should format partition %s.\n"
 "Otherwise no entry for mount point %s will be written in fstab.\n"
 "Quit anyway?"
-msgstr "Sie sollten Partition %s formatieren.\nAndernfalls wird kein Eintrag für Mountpoint %s in die fstab geschrieben.\nTrotzdem beenden?"
+msgstr ""
+"Sie sollten Partition %s formatieren.\n"
+"Andernfalls wird kein Eintrag für Mountpoint %s in die fstab geschrieben.\n"
+"Trotzdem beenden?"
 
 #: ../rosa-draklive-install.desktop.in.h:1
 msgid "Live Install"
