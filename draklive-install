@@ -84,6 +84,8 @@ sub install_live() {
     system('sync');
     display_end_message($in);
     background::hide_bg_window if ($running_wm eq 'drakx-matchbox-window-manager');
+    # eject type CDROM
+    system('eject -r');
     $in->exit(0);
 }
 
