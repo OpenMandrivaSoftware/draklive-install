@@ -44,9 +44,9 @@ msgid ""
 msgstr ""
 
 #: ../draklive-install:185
-#, c-format
-msgid "ROSA Live"
-msgstr ""
+#, fuzzy, c-format
+msgid "OpenMandriva Live"
+msgstr "OpenMandriva Lx Live"
 
 #: ../draklive-install:193
 #, c-format
@@ -241,15 +241,12 @@ msgstr "Gosodiad Byw"
 
 #: ../rosa-draklive-install.desktop.in.h:2
 #, fuzzy
-msgid "Install your ROSA live system to disk"
+msgid "Install your OpenMandriva live system to disk"
 msgstr "Gosod eich system OpenMandriva Lx byw i ddisg"
 
 #: ../draklive-install.desktop.in.h:1
 msgid "Install on Hard Disk"
 msgstr ""
-
-#~ msgid "OpenMandriva Lx Live"
-#~ msgstr "OpenMandriva Lx Live"
 
 #~ msgid "Computing total size"
 #~ msgstr "Cyfrifo'r maint llawn"

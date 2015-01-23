@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../draklive-install:185
 #, c-format
-msgid "ROSA Live"
+msgid "OpenMandriva Live"
 msgstr ""
 
 #: ../draklive-install:193
@@ -241,7 +241,7 @@ msgid "Live Install"
 msgstr ""
 
 #: ../rosa-draklive-install.desktop.in.h:2
-msgid "Install your ROSA live system to disk"
+msgid "Install your OpenMandriva live system to disk"
 msgstr ""
 
 #: ../draklive-install.desktop.in.h:1

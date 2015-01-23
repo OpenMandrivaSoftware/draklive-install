@@ -53,9 +53,9 @@ msgid ""
 msgstr ""
 
 #: ../draklive-install:185
-#, c-format
-msgid "ROSA Live"
-msgstr ""
+#, fuzzy, c-format
+msgid "OpenMandriva Live"
+msgstr "OpenMandriva Lx Çalışan CD"
 
 #: ../draklive-install:193
 #, c-format
@@ -252,15 +252,12 @@ msgstr "Çalışan CD Yükleme"
 
 #: ../rosa-draklive-install.desktop.in.h:2
 #, fuzzy
-msgid "Install your ROSA live system to disk"
+msgid "Install your OpenMandriva live system to disk"
 msgstr "OpenMandriva Lx Çalışan CD sisteminizi diske yükleyin"
 
 #: ../draklive-install.desktop.in.h:1
 msgid "Install on Hard Disk"
 msgstr "Sabit diske kur"
-
-#~ msgid "OpenMandriva Lx Live"
-#~ msgstr "OpenMandriva Lx Çalışan CD"
 
 #~ msgid "Computing total size"
 #~ msgstr "Toplam boyut hesaplanıyor"
