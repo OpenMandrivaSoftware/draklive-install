@@ -242,11 +242,11 @@ msgstr ""
 "Διαφορετικά, το σημείο προσάρτησης %s δεν θα εγγραφεί στο fstab.\n"
 "Να γίνει έξοδος έτσι και αλλιώς;"
 
-#: ../rosa-draklive-install.desktop.in.h:1
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Εγκατάσταση του Live CD"
 
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Εγκατάσταση στο δίσκο, του του συστήματός σου OpenMandriva Lx Live"

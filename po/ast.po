@@ -242,11 +242,11 @@ msgstr ""
 "%s.\n"
 "¿Colar de toes formes?"
 
-#: ../rosa-draklive-install.desktop.in.h:1
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Instalación Live"
 
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Instalar sistema Live de OpenMandriva Lx nel discu"

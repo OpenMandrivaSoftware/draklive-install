@@ -235,11 +235,11 @@ msgstr ""
 "Fel arall ni fydd mynediad i bwynt gosod %s yn cael ei ysgrifennu yn fstab.\n"
 "Gadael beth bynnag?"
 
-#: ../rosa-draklive-install.desktop.in.h:1
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Gosodiad Byw"
 
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Gosod eich system OpenMandriva Lx byw i ddisg"

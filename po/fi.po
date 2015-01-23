@@ -242,11 +242,11 @@ msgstr ""
 "tietuetta liitospisteelle %s.\n"
 "Lopeta joka tapauksessa?"
 
-#: ../rosa-draklive-install.desktop.in.h:1
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Asenna OpenMandriva Lx"
 
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Asenna OpenMandriva Lx Live -järjestelmä kiintolevylle"

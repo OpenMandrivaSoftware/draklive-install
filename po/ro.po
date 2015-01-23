@@ -274,11 +274,11 @@ msgstr ""
 "Altfel nu se va înscrie partiția %s în fstab.\n"
 "Renunțați totuși?"
 
-#: ../rosa-draklive-install.desktop.in.h:1
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Instalare OpenMandriva Lx Live"
 
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Instalați sistemul OpenMandriva Lx Live pe disc"

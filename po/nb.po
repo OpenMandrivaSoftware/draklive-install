@@ -236,11 +236,11 @@ msgstr ""
 "Ellers vil ingen oppføring for monteringspunkt %s bli skrevet i fstab.\n"
 "Avslutte uansett?"
 
-#: ../rosa-draklive-install.desktop.in.h:1
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Live-installering"
 
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Installer OpenMandriva Lx live-systemet til disk"

@@ -239,11 +239,11 @@ msgstr ""
 "אחרת לא תיכתב כניסה לעיגון %s בקובץ fstab.\n"
 "האם לצאת בכל זאת?"
 
-#: ../rosa-draklive-install.desktop.in.h:1
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "התקנת מערכת-חיה"
 
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "התקנת המערכת החיה של מנדריבה אל הכונן"

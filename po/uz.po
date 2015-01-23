@@ -236,11 +236,11 @@ msgstr ""
 "Aks holda %s ulanish nuqtasi fstab'da qayd etilmaydi.\n"
 "Shunga qaramasdan chiqishni istaysizmi?"
 
-#: ../rosa-draklive-install.desktop.in.h:1
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "LiveCD/DVD oʻrnatuvchisi"
 
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "OpenMandriva Lx Live tizimini kompyuterning diskiga oʻrnatish"

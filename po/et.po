@@ -233,11 +233,11 @@ msgstr ""
 "Vastasel juhul ei kirjutata fstab-i haakepunktile %s üldse kirjet.\n"
 "Kas ikkagi väljuda?"
 
-#: ../rosa-draklive-install.desktop.in.h:1
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Live-paigaldus"
 
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "OpenMandriva Lx live-süsteemi paigaldamine kettale"

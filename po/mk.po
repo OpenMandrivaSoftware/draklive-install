@@ -238,11 +238,11 @@ msgstr ""
 "Спротивно, во fstab нема да се запише внесот на точката на монтирање за %s.\n"
 "Откажувате?"
 
-#: ../rosa-draklive-install.desktop.in.h:1
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr ""
 
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:2
 msgid "Install your OpenMandriva live system to disk"
 msgstr ""
 

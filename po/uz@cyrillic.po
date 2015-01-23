@@ -235,11 +235,11 @@ msgstr ""
 "Акс ҳолда %s уланиш нуқтаси fstab'да қайд этилмайди.\n"
 "Шунга қарамасдан чиқишни истайсизми?"
 
-#: ../rosa-draklive-install.desktop.in.h:1
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "LiveCD/DVD ўрнатувчиси"
 
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "OpenMandriva Lx Live тизимини компьютернинг дискига ўрнатиш"

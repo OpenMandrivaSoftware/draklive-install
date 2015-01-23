@@ -252,11 +252,11 @@ msgstr ""
 "de montagem %s em fstab.\n"
 "Sair mesmo assim?"
 
-#: ../rosa-draklive-install.desktop.in.h:1
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Instalação 'Live'"
 
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Instalar o sistema OpenMandriva Lx Live no disco"

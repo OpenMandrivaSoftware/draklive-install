@@ -243,11 +243,11 @@ msgstr ""
 "Altrimenti non verrà assegnato un punto di mount per %s in fstab.\n"
 "Vuoi uscire comunque?"
 
-#: ../rosa-draklive-install.desktop.in.h:1
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Installa OpenMandriva Lx Live"
 
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Installa OpenMandriva Lx Live sul disco"

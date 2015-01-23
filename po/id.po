@@ -242,11 +242,11 @@ msgstr ""
 "Jika tidak, tidak ada daftar titik mount %s yang ditulis pada fstab.\n"
 "Berhenti?"
 
-#: ../rosa-draklive-install.desktop.in.h:1
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Installasi Langsung"
 
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Install sistem OpenMandriva Lx live Anda ke disk"

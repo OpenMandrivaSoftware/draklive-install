@@ -236,11 +236,11 @@ msgstr ""
 "Gainerantzean ez da %s muntaia puntuarentzat sarrerarik idatziko fstab-en.\n"
 "Irten hala ere?"
 
-#: ../rosa-draklive-install.desktop.in.h:1
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Live instalaketa"
 
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Instalatu zure OpenMandriva Lx live sistema diskora"

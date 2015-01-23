@@ -236,11 +236,11 @@ msgstr ""
 "Jinak nebude do souboru fstab zapsána položka pro přípojný bod %s.\n"
 "Chcete přesto skončit?"
 
-#: ../rosa-draklive-install.desktop.in.h:1
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Živá instalace"
 
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Instalace vašeho živého systému OpenMandriva Lx na disk"

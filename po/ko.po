@@ -236,11 +236,11 @@ msgstr ""
 "\n"
 "종료합니까?"
 
-#: ../rosa-draklive-install.desktop.in.h:1
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr ""
 
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:2
 msgid "Install your OpenMandriva live system to disk"
 msgstr ""
 

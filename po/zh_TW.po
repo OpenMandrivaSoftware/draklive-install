@@ -246,11 +246,11 @@ msgstr ""
 "否則掛載點 %s 的資訊將不會寫入 fstab 中。\n"
 "仍然要離開嗎？"
 
-#: ../rosa-draklive-install.desktop.in.h:1
+#: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Live 安裝"
 
-#: ../rosa-draklive-install.desktop.in.h:2
+#: ../openmandriva-draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "將您的 OpenMandriva Lx live 系統安裝到硬碟"
