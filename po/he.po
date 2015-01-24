@@ -239,18 +239,14 @@ msgstr ""
 "אחרת לא תיכתב כניסה לעיגון %s בקובץ fstab.\n"
 "האם לצאת בכל זאת?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "התקנת מערכת-חיה"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "התקנת המערכת החיה של מנדריבה אל הכונן"
-
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
-msgstr ""
 
 #~ msgid "Computing total size"
 #~ msgstr "מחשב גודל כולל"

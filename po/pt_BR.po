@@ -250,18 +250,17 @@ msgstr ""
 "fstab.\n"
 "Sair mesmo assim ?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Instalador Live"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Instalar seu sistema OpenMandriva Lx live para o HD"
 
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
-msgstr "Instalar no Disco Rígido"
+#~ msgid "Install on Hard Disk"
+#~ msgstr "Instalar no Disco Rígido"
 
 #~ msgid "Computing total size"
 #~ msgstr "Calculando tamanho total..."

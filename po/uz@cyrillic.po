@@ -235,18 +235,14 @@ msgstr ""
 "Акс ҳолда %s уланиш нуқтаси fstab'да қайд этилмайди.\n"
 "Шунга қарамасдан чиқишни истайсизми?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "LiveCD/DVD ўрнатувчиси"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "OpenMandriva Lx Live тизимини компьютернинг дискига ўрнатиш"
-
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
-msgstr ""
 
 #~ msgid "Computing total size"
 #~ msgstr "Умумий ҳажм ҳисобланмоқда"

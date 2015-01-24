@@ -242,18 +242,14 @@ msgstr ""
 "Jika tidak, tidak ada daftar titik mount %s yang ditulis pada fstab.\n"
 "Berhenti?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Installasi Langsung"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Install sistem OpenMandriva Lx live Anda ke disk"
-
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
-msgstr ""
 
 #~ msgid "Computing total size"
 #~ msgstr "Menghitung ukuran total"

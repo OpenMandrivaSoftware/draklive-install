@@ -236,18 +236,14 @@ msgstr ""
 "Aks holda %s ulanish nuqtasi fstab'da qayd etilmaydi.\n"
 "Shunga qaramasdan chiqishni istaysizmi?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "LiveCD/DVD oʻrnatuvchisi"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "OpenMandriva Lx Live tizimini kompyuterning diskiga oʻrnatish"
-
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
-msgstr ""
 
 #~ msgid "Computing total size"
 #~ msgstr "Umumiy hajm hisoblanmoqda"

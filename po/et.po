@@ -233,18 +233,17 @@ msgstr ""
 "Vastasel juhul ei kirjutata fstab-i haakepunktile %s üldse kirjet.\n"
 "Kas ikkagi väljuda?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Live-paigaldus"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "OpenMandriva Lx live-süsteemi paigaldamine kettale"
 
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
-msgstr "Paigaldamine kõvakettale"
+#~ msgid "Install on Hard Disk"
+#~ msgstr "Paigaldamine kõvakettale"
 
 #~ msgid "Computing total size"
 #~ msgstr "Kogusuuruse arvutamine"

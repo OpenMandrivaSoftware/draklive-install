@@ -304,18 +304,17 @@ msgstr ""
 "fstab.\n"
 "Quitter malgré tout ?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr ""
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Installer votre OpenMandriva Lx Live sur un disque"
 
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
-msgstr "Installation sur disque dur"
+#~ msgid "Install on Hard Disk"
+#~ msgstr "Installation sur disque dur"
 
 #~ msgid "Computing total size"
 #~ msgstr "Calcul de la taille totale en cours"

@@ -246,18 +246,17 @@ msgstr ""
 "Aksi halde fstab içerisine %s bağlantı noktası eklenmeyecek.\n"
 "Yine de çıkmak istiyor musunuz?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Çalışan CD Yükleme"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "OpenMandriva Lx Çalışan CD sisteminizi diske yükleyin"
 
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
-msgstr "Sabit diske kur"
+#~ msgid "Install on Hard Disk"
+#~ msgstr "Sabit diske kur"
 
 #~ msgid "Computing total size"
 #~ msgstr "Toplam boyut hesaplanıyor"

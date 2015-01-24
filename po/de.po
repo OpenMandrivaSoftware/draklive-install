@@ -246,18 +246,17 @@ msgstr ""
 "Andernfalls wird kein Eintrag für Mountpoint %s in die fstab geschrieben.\n"
 "Trotzdem beenden?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Live Install"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Installieren des OpenMandriva Livesystems auf Disk"
 
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
-msgstr "Installation auf Festplatte"
+#~ msgid "Install on Hard Disk"
+#~ msgstr "Installation auf Festplatte"
 
 #~ msgid "ROSA Live"
 #~ msgstr "OpenMandriva Live"

@@ -274,18 +274,17 @@ msgstr ""
 "Altfel nu se va înscrie partiția %s în fstab.\n"
 "Renunțați totuși?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Instalare OpenMandriva Lx Live"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Instalați sistemul OpenMandriva Lx Live pe disc"
 
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
-msgstr "Instalare pe discul dur"
+#~ msgid "Install on Hard Disk"
+#~ msgstr "Instalare pe discul dur"
 
 #~ msgid "Computing total size"
 #~ msgstr "Se calculează spațiul disponibil"

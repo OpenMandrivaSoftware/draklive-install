@@ -85,6 +85,8 @@ sub install_live() {
     display_end_message($in);
     background::hide_bg_window if ($running_wm eq 'drakx-matchbox-window-manager');
     $in->exit(0);
+    # eject cdrom after installation
+    system('eject -r &');
 }
 
 sub umount_all {

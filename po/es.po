@@ -241,18 +241,17 @@ msgstr ""
 "montaje %s.\n"
 "¿Salir de todas formas?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Instalación Live"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Instalar sistema live de OpenMandriva Lx en disco"
 
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
-msgstr "Instalar en el Disco Duro"
+#~ msgid "Install on Hard Disk"
+#~ msgstr "Instalar en el Disco Duro"
 
 #~ msgid "Computing total size"
 #~ msgstr "Calculando el tamaño total"

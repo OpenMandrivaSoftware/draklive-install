@@ -242,18 +242,17 @@ msgstr ""
 "Διαφορετικά, το σημείο προσάρτησης %s δεν θα εγγραφεί στο fstab.\n"
 "Να γίνει έξοδος έτσι και αλλιώς;"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Εγκατάσταση του Live CD"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Εγκατάσταση στο δίσκο, του του συστήματός σου OpenMandriva Lx Live"
 
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
-msgstr "Εγκατάσταση στο σκληρό δίσκο"
+#~ msgid "Install on Hard Disk"
+#~ msgstr "Εγκατάσταση στο σκληρό δίσκο"
 
 #~ msgid "Computing total size"
 #~ msgstr "Υπολογισμός συνολικού μεγέθους"

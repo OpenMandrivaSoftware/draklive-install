@@ -246,18 +246,17 @@ msgstr ""
 "Иначе в fstab не будет записи о точке монтирования %s.\n"
 "Всё равно выйти?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Установщик в режиме Live"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Установить дистрибутив на жёсткий диск"
 
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
-msgstr "Установка на жесткий диск"
+#~ msgid "Install on Hard Disk"
+#~ msgstr "Установка на жесткий диск"
 
 #~ msgid "Try again?"
 #~ msgstr "Повторить попытку?"

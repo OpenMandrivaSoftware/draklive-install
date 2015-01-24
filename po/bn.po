@@ -237,16 +237,12 @@ msgstr ""
 "অন্যথা fstab এ মাউন্ট পয়েন্ট %s এর কোন এন্ট্রি লেখা হবে না।\n"
 "তবুও বের হয়ে যাব কি?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr ""
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 msgid "Install your OpenMandriva live system to disk"
-msgstr ""
-
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
 msgstr ""
 
 #~ msgid "Computing total size"

@@ -239,18 +239,14 @@ msgstr ""
 "Anders kan er geen regel voor koppelpunt %s in fstab worden gezet.\n"
 "Toch afsluiten?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Live installeren"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Het OpenMandriva Lx live systeem op de harde schijf installeren"
-
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
-msgstr ""
 
 #~ msgid "Computing total size"
 #~ msgstr "Uitrekenen totale grootte"

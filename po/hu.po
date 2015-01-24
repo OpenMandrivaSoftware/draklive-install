@@ -238,18 +238,17 @@ msgstr ""
 "esetén a(z) %s csatolási ponthoz nem lesz bejegyzés az fstab fájlban.\n"
 "Mégis kilép?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Live telepítés"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "OpenMandriva Lx live rendszer telepítése lemezre"
 
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
-msgstr "Telepítés a merevlemezre"
+#~ msgid "Install on Hard Disk"
+#~ msgstr "Telepítés a merevlemezre"
 
 #~ msgid "Computing total size"
 #~ msgstr "Teljes méret kiszámítása"

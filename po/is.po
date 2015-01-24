@@ -236,18 +236,14 @@ msgstr ""
 "Annars verður engin færsla fyrir tengipunkt %s skráð í fstab.\n"
 "Hætta samt?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Live innsetning"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Setja OpenMandriva Lx-live kerfi á disk"
-
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
-msgstr ""
 
 #~ msgid "Computing total size"
 #~ msgstr "Reikna heildarstærð"

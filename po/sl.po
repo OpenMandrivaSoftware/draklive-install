@@ -240,18 +240,17 @@ msgstr ""
 "Drugače vnos za priklopno točko %s ne bo vpisan v fstab.\n"
 "Ali naj vseeno končam?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Namestitev"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Namestitev sistema OpenMandriva Lx na trdi disk"
 
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
-msgstr "Namesti na trdi disk"
+#~ msgid "Install on Hard Disk"
+#~ msgstr "Namesti na trdi disk"
 
 #~ msgid "Computing total size"
 #~ msgstr "Izračunavanje celotnega prostora"

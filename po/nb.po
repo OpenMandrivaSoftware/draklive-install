@@ -236,18 +236,17 @@ msgstr ""
 "Ellers vil ingen oppføring for monteringspunkt %s bli skrevet i fstab.\n"
 "Avslutte uansett?"
 
-#: ../openmandriva-draklive-install.desktop.in.h:1
+#: ../draklive-install.desktop.in.h:1
 msgid "Live Install"
 msgstr "Live-installering"
 
-#: ../openmandriva-draklive-install.desktop.in.h:2
+#: ../draklive-install.desktop.in.h:2
 #, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Installer OpenMandriva Lx live-systemet til disk"
 
-#: ../draklive-install.desktop.in.h:1
-msgid "Install on Hard Disk"
-msgstr "Installer på harddisk"
+#~ msgid "Install on Hard Disk"
+#~ msgstr "Installer på harddisk"
 
 #~ msgid "Computing total size"
 #~ msgstr "Beregner total størrelse"
