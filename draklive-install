@@ -245,7 +245,7 @@ sub build_copy_command {
 	'tar', 'cf -', '--one-file-system', '--exclude=/etc/localtime','--exclude=/etc/sysconfig/clock',
 	'-C', $source, '.',
 	'|',
-	'tar', 'tvf -', '-C', $dest,
+	'tar', 'xvvf -', '-C', $dest,
      );
 }
 
