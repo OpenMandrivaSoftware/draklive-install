@@ -270,7 +270,7 @@ sub copy_root {
         local $_;
         my $current = my $previous = 0;
         while (<$OUTPUT>) {
-            (undef, undef, my $size) = split;
+            (undef, undef, undef, undef, my $size) = split;
             $current += $size;
             if ($current <= $total && $current/$total > $previous/$total + 0.005) {
                 $update_progress->('', $current, $total);
