@@ -1,5 +1,5 @@
 NAME = draklive-install
-VERSION = 1.41.1
+VERSION = 1.41.2
 
 dli_confdir = ${sysconfdir}/$(NAME).d
 dli_sysconfigdir = $(dli_confdir)/sysconfig

@@ -565,7 +565,7 @@ sub setup_bootloader {
             }
             else
             {
-               $chosen_esp = $in->ask_from_list("Choose EFI Partition", "Multiple EFI System partitions found", \@potentials);
+               $chosen_esp = $in->ask_from_list("Choose EFI Partition", "Multiple EFI System partitions found", \@potential_esp);
             }
 
     	    $install_err = system("chroot /mnt/install /bin/sh -c 'mount -t vfat $chosen_esp /boot/efi && echo boot=$install_device > /boot/grub2/drakboot.conf && grub2-install $g2arg $install_device && grub2-mkconfig -o /boot/grub2/grub.cfg'");}
