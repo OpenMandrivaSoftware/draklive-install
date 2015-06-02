@@ -559,7 +559,12 @@ sub setup_bootloader {
             my $num_esp = @potential_esp;
 
             my $chosen_esp = "ERROR";
-            if($num_esp == 1)
+            if($num_esp == 0)
+            {
+               $in->ask_warn(N("Error"), N("No ESP partition detected."));
+               $in->exit(1);
+            }
+            elsif($num_esp == 1)
             {
                $chosen_esp = $potential_esp[0];
             }
