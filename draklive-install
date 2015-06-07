@@ -79,7 +79,7 @@ sub install_live() {
     copy_root($in, $copy_source);
     complete_install($in, $all_hds);
     setup_bootloader($in, $all_hds, $fstab);
-    setup_initrd($in);
+    #setup_initrd($in);
     finish_installation($fstab);
     display_end_message($in);
     background::hide_bg_window if ($running_wm eq 'drakx-matchbox-window-manager');
