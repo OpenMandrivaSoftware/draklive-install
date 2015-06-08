@@ -499,7 +499,7 @@ sub setup_bootloader {
             { label => N("Boot device"), val => \$install_device, list => \@boot_devices, allow_empty_list => 1,
               format => sub { $boot_devices_info{$_[0]} } },
 	    #Extra grub2 entries can be added here
-            { label => N("Bootloader-id"), val => \$grub2_flags{'bootloader_id'}->{'value'}},               
+            { label => N("Bootloader-id"), val => \$grub2_flags{'--bootloader-id'}->{'value'}},
             { label => N("Main options"), title => 1 },
             { label => N("Delay before booting default image"), val => \$options{'GRUB_TIMEOUT'}->{'value'} },
             { text => N("Disable UUID"), val => \$options{'GRUB_DISABLE_LINUX_UUID'}->{'value'}, type => 'bool', advanced => 1 },
@@ -520,9 +520,9 @@ sub setup_bootloader {
         # Amongst other things the bootloader-id flag generates an entry for the efibootmgr utility which creates a new boot entry loaded with
         # the correct parameters to boot the system NO error checking is performed on this variable if it is incorrect the system will fail to boot.
 
-        $sys_is_efi=(system('/bin/sh -c mount | grep efivarfs')); 
-            # No EFI filesystem
-        if ($sys_is_efi == 0) {
+        $sys_is_efi=is_uefi();
+
+        if ($sys_is_efi) {
 	    for $gc ( keys %grub2_flags ) {
 	      $go =  $grub2_flags{'--bootloader-id'}{'type'};
 	      $ga = $grub2_flags{'--bootloader-id'}{'value'};
@@ -538,7 +538,7 @@ sub setup_bootloader {
         }
 	# So, first we try to prepare chroot environment by mounting system-related mount points.
         if (system('mount --bind /proc /mnt/install/proc && mount --bind /sys /mnt/install/sys && mount --bind /dev /mnt/install/dev') != 0 ) {
-	       if ($sys_is_efi == 0) {
+	       if ($sys_is_efi) {
 			system('mount -t efivarfs /sys/firmware/efi/efivars /mnt/install/sys/firmware/efi/efivars'); 
             # Failure, ask what to do now (exit Grub2 installation or try again)
             # Reuse $install_err as user's reply: Yes -> $install_err==1 -> repeat the loop
@@ -552,7 +552,7 @@ sub setup_bootloader {
         # If the efivars fs is mounted on /sys/firmware/efi then we must also mount it on the chroot 
         # to allow grub2-install to create a bootloader entry.
         # Now install the Grub2 itself and create menu configuration for it.
-        if ($sys_is_efi == 0) {
+        if ($sys_is_efi) {
     	    system('mount -t efivarfs /sys/firmware/efi/efivars /mnt/install/sys/firmware/efi/efivars');
             my @potential_esp = find_efi_sys_parts();
 
