@@ -574,6 +574,19 @@ sub setup_bootloader {
             }
 
     	    $install_err = system("chroot /mnt/install /bin/sh -c 'mount -t vfat $chosen_esp /boot/efi && echo boot=$install_device > /boot/grub2/drakboot.conf && grub2-install $g2arg $install_device && grub2-mkconfig -o /boot/grub2/grub.cfg'");}
+ 
+            if(!$install_err) {
+               # workaround in case of buggy firmware which requires EFI/boot/BOOTX64.EFI
+               system("mkdir -p /mnt/install/boot/efi/EFI/boot");
+
+               my $default_efi_loc = '/mnt/install/boot/efi/EFI/boot/BOOTX64.EFI';
+               my $bl_id = $grub2_flags{'--bootloader-id'}->{'value'};
+               my $our_efi_loc = "/mnt/install/boot/efi/EFI/$bl_id/grubx64.efi";
+
+               if(!-e $default_efi_loc) {
+                  $install_err = system("cp $our_efi_loc $default_efi_loc");
+               }
+            }
         else {
     	    $install_err = system("chroot /mnt/install /bin/sh -c 'echo boot=$install_device > /boot/grub2/drakboot.conf && grub2-install $install_device && grub2-mkconfig -o /boot/grub2/grub.cfg'");}
         if ($install_err != 0) {
