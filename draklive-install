@@ -343,7 +343,8 @@ sub complete_install {
         my $bkf = $::prefix . '/boot_kernel';
         if(-e $bkf)
         {
-           my $kerns = `cat $bkf | xargs`;
+           my $kern_type = `cat $bkf | xargs`;
+           my $kerns = `chroot $::prefix rpm -qa | grep $kern_type`;
            system('chroot', $::prefix, "rpm -e $kerns ");
            system("rm -f $bkf");
         }
