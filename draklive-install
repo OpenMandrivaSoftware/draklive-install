@@ -338,6 +338,15 @@ sub complete_install {
         #- do not allow update-menus to create home directory with invalid perms
         local $ENV{HOME} = '/root';
         system('chroot', $::prefix, 'rpm', '-e', 'draklive-install');
+
+        # remove the boot kernel if it exists
+        my $bkf = $::prefix . '/boot_kernel';
+        if(-e $bkf)
+        {
+           my $kerns = `cat $bkf | xargs`;
+           system('chroot', $::prefix, "rpm -e $kerns ");
+           system("rm -f $bkf");
+        }
     }
 
     #- copy sysconfig files for first boot
