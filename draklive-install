@@ -344,8 +344,10 @@ sub complete_install {
         if(-e $bkf)
         {
            my $kern_type = `cat $bkf | xargs`;
-           my $kerns = `chroot $::prefix rpm -qa | grep $kern_type`;
-           system('chroot', $::prefix, "rpm -e $kerns ");
+           chomp($kern_type);
+           my $kerns = `chroot $::prefix rpm -qa | grep $kern_type | xargs`;
+           chomp($kerns);
+           system('chroot', $::prefix, "rpm", "-e", "$kerns");
            system("rm -f $bkf");
         }
     }
