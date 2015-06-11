@@ -345,10 +345,10 @@ sub complete_install {
         {
            my $kern_type = `cat $bkf | xargs`;
            chomp($kern_type);
-           my $kerns = `chroot $::prefix rpm -qa | grep $kern_type | xargs`;
-           chomp($kerns);
-           system('chroot', $::prefix, "rpm", "-e", "$kerns");
-           system("rm -f $bkf");
+           my @kerns = `chroot $::prefix rpm -qa | grep $kern_type`;
+           chomp(@kerns);
+           system('chroot', $::prefix, "rpm", "-e", @kerns);
+           unlink($bkf);
         }
     }
 
