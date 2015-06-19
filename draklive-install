@@ -339,17 +339,6 @@ sub complete_install {
         local $ENV{HOME} = '/root';
         system('chroot', $::prefix, 'rpm', '-e', 'draklive-install');
 
-        # remove the boot kernel if it exists
-        my $bkf = $::prefix . '/boot_kernel';
-        if(-e $bkf)
-        {
-           my $kern_type = `cat $bkf | xargs`;
-           chomp($kern_type);
-           my @kerns = `chroot $::prefix rpm -qa | grep $kern_type`;
-           chomp(@kerns);
-           system('chroot', $::prefix, "rpm", "-e", @kerns);
-           unlink($bkf);
-        }
     }
 
     #- copy sysconfig files for first boot
@@ -487,6 +476,9 @@ sub setup_bootloader {
     my ($in, $all_hds, $fstab) = @_;
 
     my $install_device;
+
+    my $USE_COMPAT_KERNEL = 0;
+
     my %options = (
         # Default options. See Grub2 documentation about /etc/default/grub for complete list,
         # but here we use only the most common ones
@@ -515,10 +507,26 @@ sub setup_bootloader {
             { label => N("Main options"), title => 1 },
             { label => N("Delay before booting default image"), val => \$options{'GRUB_TIMEOUT'}->{'value'} },
             { text => N("Disable UUID"), val => \$options{'GRUB_DISABLE_LINUX_UUID'}->{'value'}, type => 'bool', advanced => 1 },
+            { text => N("Boot with compatibility kernel"), val => \$USE_COMPAT_KERNEL },
         ]) or return 0;
 
         # Now let's rock and roll!
         my $_wait = $in->wait_message(N("Bootloader"), N("Please wait while the bootloader is being installed..."));
+
+        if($USE_COMPAT_KERNEL == 0)
+        {
+            # remove the boot kernel if it exists
+            my $bkf = $::prefix . '/boot_kernel';
+            if(-e $bkf)
+            {
+               my $kern_type = `cat $bkf | xargs`;
+               chomp($kern_type);
+               my @kerns = `chroot $::prefix rpm -qa | grep $kern_type`;
+               chomp(@kerns);
+               system('chroot', $::prefix, "rpm", "-e", @kerns);
+               unlink($bkf);
+            }
+        }
 
         # Write down the options NOTE CC CHANGED PATH HERE
         if (!update_grub_options('/etc/default/grub', \%options)) {
