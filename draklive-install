@@ -507,7 +507,7 @@ sub setup_bootloader {
             { label => N("Main options"), title => 1 },
             { label => N("Delay before booting default image"), val => \$options{'GRUB_TIMEOUT'}->{'value'} },
             { text => N("Disable UUID"), val => \$options{'GRUB_DISABLE_LINUX_UUID'}->{'value'}, type => 'bool', advanced => 1 },
-            { text => N("Boot with compatibility kernel"), val => \$USE_COMPAT_KERNEL },
+            { text => N("Boot with compatibility kernel"), val => \$USE_COMPAT_KERNEL, type=>'bool', advanced=> 1 },
         ]) or return 0;
 
         # Now let's rock and roll!
