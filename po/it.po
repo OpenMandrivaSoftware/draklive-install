@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: draklive-install\n"
 "Report-Msgid-Bugs-To: https://issues.openmandriva.org/\n"
-"POT-Creation-Date: 2014-03-19 20:25+0400\n"
+"POT-Creation-Date: 2015-06-24 12:00+0100\n"
 "PO-Revision-Date: 2012-11-11 12:37+0000\n"
 "Last-Translator: Nicolò Costanza <abitrules@yahoo.it>\n"
 "Language-Team: Italian <abitrules@yahoo.it>\n"
@@ -23,216 +23,208 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../draklive-install:84 ../draklive-install:219 ../draklive-install:315
-#: ../draklive-install:396
-#, c-format
-msgid "Please wait"
-msgstr "Attendere prego"
-
-#: ../draklive-install:122 ../draklive-install:132 ../draklive-install:241
-#: ../draklive-install:257 ../draklive-install:374 ../draklive-install:626
-#: ../draklive-install:638 ../draklive-install:670
-#, c-format
-msgid "Error"
-msgstr "Errore"
-
-#: ../draklive-install:122
-#, c-format
-msgid "Failed to launch post-install setup. It will be started on next boot."
-msgstr ""
-
-#: ../draklive-install:132
-#, c-format
-msgid ""
-"Failed to prepare chroot for post-install setup. Post-install will be "
-"started on next boot."
-msgstr ""
-
-#: ../draklive-install:185
+#: ../draklive-install:116
 #, c-format
 msgid "OpenMandriva Lx Live"
 msgstr "OpenMandriva Lx Live"
 
-#: ../draklive-install:193
+#: ../draklive-install:122
 #, c-format
-msgid "This wizard will help you to install the live distribution."
-msgstr "Questo assistente ti aiuterà a installare la distribuzione live."
+msgid "Welcome! Let's get started installing OpenMandriva Lx."
+msgstr ""
 
-#: ../draklive-install:257
+#: ../draklive-install:155 ../draklive-install:234 ../draklive-install:315
+#, c-format
+msgid "Please wait"
+msgstr "Attendere prego"
+
+#: ../draklive-install:176 ../draklive-install:188 ../draklive-install:293
+#: ../draklive-install:566 ../draklive-install:584 ../draklive-install:613
+#: ../draklive-install:634
+#, c-format
+msgid "Error"
+msgstr "Errore"
+
+#: ../draklive-install:188
 #, c-format
 msgid "An error occurred"
 msgstr "Si è verificato un errore"
 
-#: ../draklive-install:293
+#: ../draklive-install:212
 #, c-format
 msgid "Not enough space available (%s available while %s are needed)"
 msgstr "Poco spazio disponibile (ci sono %s mentre ne servono %s)"
 
-#: ../draklive-install:348 ../draklive-install:779
+#: ../draklive-install:267 ../draklive-install:740
 #, c-format
 msgid "Copying in progress"
 msgstr "Copia in corso"
 
-#: ../draklive-install:374
+#: ../draklive-install:293
 #, c-format
 msgid "Unable to copy files to new root"
 msgstr "Impossibile copiare i file nella nuova directory radice"
 
-#: ../draklive-install:472
+#: ../draklive-install:389
 #, c-format
 msgid " Mb\n"
 msgstr "Mb\n"
 
-#: ../draklive-install:476
+#: ../draklive-install:393
 #, c-format
 msgid " Gb\n"
 msgstr ""
 "Gb\n"
 "\n"
 
-#: ../draklive-install:588
+#: ../draklive-install:499
 #, c-format
 msgid "Bootloader main options"
 msgstr "Opzioni principali del bootloader"
 
-#: ../draklive-install:591 ../draklive-install:601
+#: ../draklive-install:502 ../draklive-install:514
 #, c-format
 msgid "Bootloader"
 msgstr "Bootloader"
 
-#: ../draklive-install:592
+#: ../draklive-install:503
 #, c-format
 msgid "Boot device"
 msgstr "Dispositivo di boot"
 
-#: ../draklive-install:594
+#: ../draklive-install:506
+#, fuzzy, c-format
+msgid "Bootloader-id"
+msgstr "Bootloader"
+
+#: ../draklive-install:507
 #, c-format
 msgid "Main options"
 msgstr "Opzioni principali"
 
-#: ../draklive-install:595
+#: ../draklive-install:508
 #, c-format
 msgid "Delay before booting default image"
 msgstr "Ritardo prima di avviare con l'immagine predefinita"
 
-#: ../draklive-install:596
+#: ../draklive-install:509
 #, c-format
 msgid "Disable UUID"
 msgstr "Disabilita UUID"
 
-#: ../draklive-install:601
+#: ../draklive-install:510
 #, c-format
-msgid "Please wait while Grub2 is being installed..."
+msgid "Boot with compatibility kernel"
+msgstr ""
+
+#: ../draklive-install:514
+#, fuzzy, c-format
+msgid "Please wait while the bootloader is being installed..."
 msgstr "Prego, aspetta mentre Grub2 viene installato..."
 
-#: ../draklive-install:610
+#: ../draklive-install:533
 #, c-format
 msgid "Warning"
 msgstr "Avviso"
 
-#: ../draklive-install:610
+#: ../draklive-install:533
 #, c-format
 msgid "Failed to update Grub2 configuration:"
 msgstr "Aggiornamento configurazione Grub2 fallito:"
 
-#: ../draklive-install:610
+#: ../draklive-install:533
 #, c-format
 msgid "Continuing with default settings."
 msgstr "Continuando con i settaggi predefiniti."
 
-#: ../draklive-install:626
+#: ../draklive-install:566
 #, fuzzy, c-format
-msgid "Failed to prepare chroot for installing Grub2. Try again?"
+msgid "Failed to prepare chroot for installing Grub2:"
 msgstr "Fallita preparazione di chroot per installare Grub2:"
 
-#: ../draklive-install:626 ../draklive-install:638
+#: ../draklive-install:566 ../draklive-install:613
 #, c-format
-msgid "Output log"
+msgid "Try again?"
+msgstr "Prova di nuovo?"
+
+#: ../draklive-install:584
+#, c-format
+msgid "No ESP partition detected."
 msgstr ""
 
-#: ../draklive-install:626
-#, c-format
-msgid "Mount commands output"
-msgstr ""
-
-#: ../draklive-install:638
+#: ../draklive-install:613
 #, fuzzy, c-format
-msgid "Failed to install Grub2. Try again?"
+msgid "Failed to install Grub2:"
 msgstr "Fallita installazione di Grub2:"
 
-#: ../draklive-install:638
-#, c-format
-msgid "Grub2 installation output"
-msgstr ""
-
-#: ../draklive-install:660
+#: ../draklive-install:628
 #, c-format
 msgid "Please wait while initrd is prepared"
 msgstr "Prego, aspettare preparazione di initrd"
 
-#: ../draklive-install:670
+#: ../draklive-install:634
 #, c-format
 msgid "Unable to copy initrd.img  to new /boot directory"
 msgstr "Impossibile copiare initrd.img sulla dir /boot "
 
-#: ../draklive-install:674
+#: ../draklive-install:638
 #, c-format
 msgid "initrd.img has been created"
 msgstr "inird.img è stata creata"
 
-#: ../draklive-install:706
-#, c-format
+#: ../draklive-install:667
+#, fuzzy, c-format
 msgid ""
-"Please halt your computer, remove your live system, and restart your "
-"computer."
+"Congratulations for installing OpenMandriva. Please halt your computer, "
+"remove your live system, and restart your computer."
 msgstr ""
 "Ora devi spegnere il computer, rimuovere il supporto della live e riavviare."
 
-#: ../draklive-install:708
+#: ../draklive-install:669
 #, c-format
 msgid ""
 "Your VNC connection will be dropped. Please reconnect after the computer is "
 "restarted."
 msgstr "La tua connessione cadrà. Prego riconnetersi dopo il riavvio del PC."
 
-#: ../draklive-install:715
+#: ../draklive-install:676
 #, c-format
 msgid "Congratulations"
 msgstr "Congratulazioni"
 
-#: ../draklive-install:721
+#: ../draklive-install:682
 #, c-format
 msgid "Finish"
 msgstr "Finisci"
 
-#: ../draklive-install:744
+#: ../draklive-install:705
 #, c-format
 msgid "Continue anyway?"
 msgstr "Continuo comunque?"
 
-#: ../draklive-install:749
+#: ../draklive-install:710
 #, c-format
 msgid "Quit without saving"
 msgstr "Esci senza salvare"
 
-#: ../draklive-install:749
+#: ../draklive-install:710
 #, c-format
 msgid "Quit without writing the partition table?"
 msgstr "Devo uscire senza scrivere la tabella delle partizioni?"
 
-#: ../draklive-install:755
+#: ../draklive-install:716
 #, c-format
 msgid "Do you want to save /etc/fstab modifications"
 msgstr "Devo salvare le modifiche a /etc/fstab?"
 
-#: ../draklive-install:762
+#: ../draklive-install:723
 #, c-format
 msgid "You need to reboot for the partition table modifications to take place"
 msgstr ""
 "Bisogna riavviare il PC affinché le modifiche alla tabella delle partizioni "
 "abbiano effetto"
 
-#: ../draklive-install:767
+#: ../draklive-install:728
 #, c-format
 msgid ""
 "You should format partition %s.\n"
@@ -248,12 +240,13 @@ msgid "Live Install"
 msgstr "Installa OpenMandriva Lx Live"
 
 #: ../openmandriva-draklive-install.desktop.in.h:2
-msgid "Install your OpenMandriva Lx live system to disk"
+#, fuzzy
+msgid "Install your OpenMandriva live system to disk"
 msgstr "Installa OpenMandriva Lx Live sul disco"
 
 #: ../draklive-install.desktop.in.h:1
 msgid "Install on Hard Disk"
 msgstr "Installa sul disco fisso"
 
-#~ msgid "Try again?"
-#~ msgstr "Prova di nuovo?"
+#~ msgid "This wizard will help you to install the live distribution."
+#~ msgstr "Questo assistente ti aiuterà a installare la distribuzione live."

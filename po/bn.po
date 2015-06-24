@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX HEAD\n"
-"POT-Creation-Date: 2014-03-19 20:25+0400\n"
+"POT-Creation-Date: 2015-06-24 12:00+0100\n"
 "PO-Revision-Date: 2007-02-18 00:48+0600\n"
 "Last-Translator: Tisa Nafisa <tisa_nafisa@yahoo.com>\n"
 "Language-Team: Bangla <mdk-translation@bengalinux.org>\n"
@@ -19,214 +19,206 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../draklive-install:84 ../draklive-install:219 ../draklive-install:315
-#: ../draklive-install:396
-#, c-format
-msgid "Please wait"
-msgstr "অনুগ্রহ করে অপেক্ষা করুন"
-
-#: ../draklive-install:122 ../draklive-install:132 ../draklive-install:241
-#: ../draklive-install:257 ../draklive-install:374 ../draklive-install:626
-#: ../draklive-install:638 ../draklive-install:670
-#, c-format
-msgid "Error"
-msgstr "ত্রুটি"
-
-#: ../draklive-install:122
-#, c-format
-msgid "Failed to launch post-install setup. It will be started on next boot."
-msgstr ""
-
-#: ../draklive-install:132
-#, c-format
-msgid ""
-"Failed to prepare chroot for post-install setup. Post-install will be "
-"started on next boot."
-msgstr ""
-
-#: ../draklive-install:185
+#: ../draklive-install:116
 #, c-format
 msgid "OpenMandriva Lx Live"
 msgstr "OpenMandriva Lx লাইভ"
 
-#: ../draklive-install:193
+#: ../draklive-install:122
 #, c-format
-msgid "This wizard will help you to install the live distribution."
-msgstr "এই উইজার্ড আপনাকে লাইভ ডিস্ট্রিবিউশন ইনস্টল করতে সাহায্য করবে"
+msgid "Welcome! Let's get started installing OpenMandriva Lx."
+msgstr ""
 
-#: ../draklive-install:257
+#: ../draklive-install:155 ../draklive-install:234 ../draklive-install:315
+#, c-format
+msgid "Please wait"
+msgstr "অনুগ্রহ করে অপেক্ষা করুন"
+
+#: ../draklive-install:176 ../draklive-install:188 ../draklive-install:293
+#: ../draklive-install:566 ../draklive-install:584 ../draklive-install:613
+#: ../draklive-install:634
+#, c-format
+msgid "Error"
+msgstr "ত্রুটি"
+
+#: ../draklive-install:188
 #, c-format
 msgid "An error occurred"
 msgstr "একটি ত্রুটি সম্পাদিত হয়েছে"
 
-#: ../draklive-install:293
+#: ../draklive-install:212
 #, c-format
 msgid "Not enough space available (%s available while %s are needed)"
 msgstr ""
 
-#: ../draklive-install:348 ../draklive-install:779
+#: ../draklive-install:267 ../draklive-install:740
 #, c-format
 msgid "Copying in progress"
 msgstr "কপি সম্পন্ন হচ্ছে"
 
-#: ../draklive-install:374
+#: ../draklive-install:293
 #, c-format
 msgid "Unable to copy files to new root"
 msgstr ""
 
-#: ../draklive-install:472
+#: ../draklive-install:389
 #, c-format
 msgid " Mb\n"
 msgstr ""
 
-#: ../draklive-install:476
+#: ../draklive-install:393
 #, c-format
 msgid " Gb\n"
 msgstr ""
 
-#: ../draklive-install:588
+#: ../draklive-install:499
 #, c-format
 msgid "Bootloader main options"
 msgstr "বুটলোডারের আসল অপশনসমুহ"
 
-#: ../draklive-install:591 ../draklive-install:601
+#: ../draklive-install:502 ../draklive-install:514
 #, c-format
 msgid "Bootloader"
 msgstr "বুটলোডার"
 
-#: ../draklive-install:592
+#: ../draklive-install:503
 #, c-format
 msgid "Boot device"
 msgstr "বুট ডিভাইস"
 
-#: ../draklive-install:594
+#: ../draklive-install:506
+#, fuzzy, c-format
+msgid "Bootloader-id"
+msgstr "বুটলোডার"
+
+#: ../draklive-install:507
 #, c-format
 msgid "Main options"
 msgstr ""
 
-#: ../draklive-install:595
+#: ../draklive-install:508
 #, c-format
 msgid "Delay before booting default image"
 msgstr "স্বাভাবিক ইমেজ লোড করার আগে দেরী করো"
 
-#: ../draklive-install:596
+#: ../draklive-install:509
 #, c-format
 msgid "Disable UUID"
 msgstr ""
 
-#: ../draklive-install:601
+#: ../draklive-install:510
 #, c-format
-msgid "Please wait while Grub2 is being installed..."
+msgid "Boot with compatibility kernel"
 msgstr ""
 
-#: ../draklive-install:610
+#: ../draklive-install:514
+#, c-format
+msgid "Please wait while the bootloader is being installed..."
+msgstr ""
+
+#: ../draklive-install:533
 #, fuzzy, c-format
 msgid "Warning"
 msgstr "পার্টিশন করা হচ্ছে"
 
-#: ../draklive-install:610
+#: ../draklive-install:533
 #, c-format
 msgid "Failed to update Grub2 configuration:"
 msgstr ""
 
-#: ../draklive-install:610
+#: ../draklive-install:533
 #, c-format
 msgid "Continuing with default settings."
 msgstr ""
 
-#: ../draklive-install:626
+#: ../draklive-install:566
 #, c-format
-msgid "Failed to prepare chroot for installing Grub2. Try again?"
+msgid "Failed to prepare chroot for installing Grub2:"
 msgstr ""
 
-#: ../draklive-install:626 ../draklive-install:638
+#: ../draklive-install:566 ../draklive-install:613
 #, c-format
-msgid "Output log"
+msgid "Try again?"
 msgstr ""
 
-#: ../draklive-install:626
+#: ../draklive-install:584
 #, c-format
-msgid "Mount commands output"
+msgid "No ESP partition detected."
 msgstr ""
 
-#: ../draklive-install:638
+#: ../draklive-install:613
 #, c-format
-msgid "Failed to install Grub2. Try again?"
+msgid "Failed to install Grub2:"
 msgstr ""
 
-#: ../draklive-install:638
-#, c-format
-msgid "Grub2 installation output"
-msgstr ""
-
-#: ../draklive-install:660
+#: ../draklive-install:628
 #, c-format
 msgid "Please wait while initrd is prepared"
 msgstr ""
 
-#: ../draklive-install:670
+#: ../draklive-install:634
 #, c-format
 msgid "Unable to copy initrd.img  to new /boot directory"
 msgstr ""
 
-#: ../draklive-install:674
+#: ../draklive-install:638
 #, c-format
 msgid "initrd.img has been created"
 msgstr ""
 
-#: ../draklive-install:706
-#, c-format
+#: ../draklive-install:667
+#, fuzzy, c-format
 msgid ""
-"Please halt your computer, remove your live system, and restart your "
-"computer."
+"Congratulations for installing OpenMandriva. Please halt your computer, "
+"remove your live system, and restart your computer."
 msgstr ""
 "অনুগ্রহ করে আপনার কম্পিউটার বন্ধ করুন, আপনার লাইভ সিস্টেম বের করুন, এবং আপনার "
 "কম্পিউটার পুনরায় চালু করুন।"
 
-#: ../draklive-install:708
+#: ../draklive-install:669
 #, c-format
 msgid ""
 "Your VNC connection will be dropped. Please reconnect after the computer is "
 "restarted."
 msgstr ""
 
-#: ../draklive-install:715
+#: ../draklive-install:676
 #, c-format
 msgid "Congratulations"
 msgstr "অভিনন্দন"
 
-#: ../draklive-install:721
+#: ../draklive-install:682
 #, c-format
 msgid "Finish"
 msgstr "সমাপ্ত"
 
-#: ../draklive-install:744
+#: ../draklive-install:705
 #, c-format
 msgid "Continue anyway?"
 msgstr "অগ্রসর হবে?"
 
-#: ../draklive-install:749
+#: ../draklive-install:710
 #, c-format
 msgid "Quit without saving"
 msgstr "সংরক্ষণ ছাড়াই বের হও"
 
-#: ../draklive-install:749
+#: ../draklive-install:710
 #, c-format
 msgid "Quit without writing the partition table?"
 msgstr "কোন পার্টিশন টেবিল না লিখেই বের হয়ে যাব?"
 
-#: ../draklive-install:755
+#: ../draklive-install:716
 #, c-format
 msgid "Do you want to save /etc/fstab modifications"
 msgstr "আপনি /etc/fstab -এর পরিবর্তন সেভ করতে চান?"
 
-#: ../draklive-install:762
+#: ../draklive-install:723
 #, c-format
 msgid "You need to reboot for the partition table modifications to take place"
 msgstr "পার্টিশন টেবিলের পরিবর্তনগুলি কার্যকর করবার জন্য আপনাকে রা-ষ্টার্ট করতে হবে"
 
 # সাম
-#: ../draklive-install:767
+#: ../draklive-install:728
 #, c-format
 msgid ""
 "You should format partition %s.\n"
@@ -242,12 +234,15 @@ msgid "Live Install"
 msgstr ""
 
 #: ../openmandriva-draklive-install.desktop.in.h:2
-msgid "Install your OpenMandriva Lx live system to disk"
+msgid "Install your OpenMandriva live system to disk"
 msgstr ""
 
 #: ../draklive-install.desktop.in.h:1
 msgid "Install on Hard Disk"
 msgstr ""
+
+#~ msgid "This wizard will help you to install the live distribution."
+#~ msgstr "এই উইজার্ড আপনাকে লাইভ ডিস্ট্রিবিউশন ইনস্টল করতে সাহায্য করবে"
 
 #~ msgid "Computing total size"
 #~ msgstr "সর্বমোট আকার পরিমাপ করা হচ্ছে"
@@ -361,8 +356,8 @@ msgstr ""
 
 #~ msgid ""
 #~ "Your Windows partition is too fragmented. Please reboot your computer "
-#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva Lx Linux "
-#~ "installation."
+#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva "
+#~ "Lx Linux installation."
 #~ msgstr ""
 #~ "আপনার উইন্ডোজের পার্টিশনটি প্রচন্ড অসম। অনুগ্রহ করে আপনার কম্পিউটারটি উইন্ডোজে রি-"
 #~ "বুট করে, ``defrag'' ইউটিলিটি চালান, পরে  রি-ষ্টার্ট করে আবার মেনড্রক ইনস্টলেশন "

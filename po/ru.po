@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: draklive-install\n"
-"POT-Creation-Date: 2014-03-19 20:25+0400\n"
+"POT-Creation-Date: 2015-06-24 12:00+0100\n"
 "PO-Revision-Date: 2008-03-21 02:52+0200\n"
 "Last-Translator: Pavel Maryanov <acid_jack@ukr.net>\n"
 "Language-Team: Russian <gnu@mx.ru>\n"
@@ -21,173 +21,165 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Language: ru_RU\n"
 
-#: ../draklive-install:84 ../draklive-install:219 ../draklive-install:315
-#: ../draklive-install:396
-#, c-format
-msgid "Please wait"
-msgstr "Подождите, пожалуйста"
-
-#: ../draklive-install:122 ../draklive-install:132 ../draklive-install:241
-#: ../draklive-install:257 ../draklive-install:374 ../draklive-install:626
-#: ../draklive-install:638 ../draklive-install:670
-#, c-format
-msgid "Error"
-msgstr "Ошибка"
-
-#: ../draklive-install:122
-#, c-format
-msgid "Failed to launch post-install setup. It will be started on next boot."
-msgstr "Не удалось выполнить настройку установленной системы. Она будет запущена при первой загрузке."
-
-#: ../draklive-install:132
-#, c-format
-msgid ""
-"Failed to prepare chroot for post-install setup. Post-install will be "
-"started on next boot."
-msgstr "Не удалось подготовить окружение для настройки установленной системы. Настройка будет запущена при первой загрузке."
-
-#: ../draklive-install:185
+#: ../draklive-install:116
 #, c-format
 msgid "OpenMandriva Lx Live"
 msgstr "OpenMandriva Lx Live"
 
-#: ../draklive-install:193
+#: ../draklive-install:122
 #, c-format
-msgid "This wizard will help you to install the live distribution."
-msgstr "Этот мастер поможет вам установить дистрибутив."
+msgid "Welcome! Let's get started installing OpenMandriva Lx."
+msgstr ""
 
-#: ../draklive-install:257
+#: ../draklive-install:155 ../draklive-install:234 ../draklive-install:315
+#, c-format
+msgid "Please wait"
+msgstr "Подождите, пожалуйста"
+
+#: ../draklive-install:176 ../draklive-install:188 ../draklive-install:293
+#: ../draklive-install:566 ../draklive-install:584 ../draklive-install:613
+#: ../draklive-install:634
+#, c-format
+msgid "Error"
+msgstr "Ошибка"
+
+#: ../draklive-install:188
 #, c-format
 msgid "An error occurred"
 msgstr "Произошла ошибка"
 
-#: ../draklive-install:293
+#: ../draklive-install:212
 #, c-format
 msgid "Not enough space available (%s available while %s are needed)"
 msgstr "Недостаточно свободного места (доступно — %s, нужно — %s)"
 
-#: ../draklive-install:348 ../draklive-install:779
+#: ../draklive-install:267 ../draklive-install:740
 #, c-format
 msgid "Copying in progress"
 msgstr "Выполняется копирование"
 
-#: ../draklive-install:374
+#: ../draklive-install:293
 #, c-format
 msgid "Unable to copy files to new root"
 msgstr "Не удаётся скопировать файлы в новый корневой каталог"
 
-#: ../draklive-install:472
+#: ../draklive-install:389
 #, c-format
 msgid " Mb\n"
 msgstr " Мб\n"
 
-#: ../draklive-install:476
+#: ../draklive-install:393
 #, c-format
 msgid " Gb\n"
 msgstr " Гб\n"
 
-#: ../draklive-install:588
+#: ../draklive-install:499
 #, c-format
 msgid "Bootloader main options"
 msgstr "Главные параметры начального загрузчика"
 
-#: ../draklive-install:591 ../draklive-install:601
+#: ../draklive-install:502 ../draklive-install:514
 #, c-format
 msgid "Bootloader"
 msgstr "Начальный загрузчик"
 
-#: ../draklive-install:592
+#: ../draklive-install:503
 #, c-format
 msgid "Boot device"
 msgstr "Загрузочное устройство"
 
-#: ../draklive-install:594
+#: ../draklive-install:506
+#, fuzzy, c-format
+msgid "Bootloader-id"
+msgstr "Начальный загрузчик"
+
+#: ../draklive-install:507
 #, c-format
 msgid "Main options"
 msgstr "Основные параметры"
 
-#: ../draklive-install:595
+#: ../draklive-install:508
 #, c-format
 msgid "Delay before booting default image"
 msgstr "Пауза перед загрузкой образа по умолчанию"
 
-#: ../draklive-install:596
+#: ../draklive-install:509
 #, c-format
 msgid "Disable UUID"
 msgstr "Не использовать UUID"
 
-#: ../draklive-install:601
+#: ../draklive-install:510
 #, c-format
-msgid "Please wait while Grub2 is being installed..."
+msgid "Boot with compatibility kernel"
+msgstr ""
+
+#: ../draklive-install:514
+#, fuzzy, c-format
+msgid "Please wait while the bootloader is being installed..."
 msgstr "Пожалуйста подождите, выполняется установка Grub2..."
 
-#: ../draklive-install:610
+#: ../draklive-install:533
 #, c-format
 msgid "Warning"
 msgstr "Предупреждение"
 
-#: ../draklive-install:610
+#: ../draklive-install:533
 #, c-format
 msgid "Failed to update Grub2 configuration:"
 msgstr "Не удалось обновить конфигурацию Grub2:"
 
-#: ../draklive-install:610
+#: ../draklive-install:533
 #, c-format
 msgid "Continuing with default settings."
 msgstr "Установка продолжится с настройками по умолчанию."
 
-#: ../draklive-install:626
-#, c-format
-msgid "Failed to prepare chroot for installing Grub2. Try again?"
+#: ../draklive-install:566
+#, fuzzy, c-format
+msgid "Failed to prepare chroot for installing Grub2:"
 msgstr ""
 "Не удалось подготовить окружение chroot для установки Grub2. Повторить "
 "попытку?"
 
-#: ../draklive-install:626 ../draklive-install:638
+#: ../draklive-install:566 ../draklive-install:613
 #, c-format
-msgid "Output log"
-msgstr "Консольный вывод"
+msgid "Try again?"
+msgstr "Повторить попытку?"
 
-#: ../draklive-install:626
+#: ../draklive-install:584
 #, c-format
-msgid "Mount commands output"
-msgstr "Вывод команд монтирования"
+msgid "No ESP partition detected."
+msgstr ""
 
-#: ../draklive-install:638
-#, c-format
-msgid "Failed to install Grub2. Try again?"
+#: ../draklive-install:613
+#, fuzzy, c-format
+msgid "Failed to install Grub2:"
 msgstr "Не удалось установить Grub2. Повторить попытку?"
 
-#: ../draklive-install:638
-#, c-format
-msgid "Grub2 installation output"
-msgstr "Вывод команд установки Grub2"
-
-#: ../draklive-install:660
+#: ../draklive-install:628
 #, c-format
 msgid "Please wait while initrd is prepared"
 msgstr "Пожалуйста подождите, выполняется подготовка initrd"
 
-#: ../draklive-install:670
+#: ../draklive-install:634
 #, c-format
 msgid "Unable to copy initrd.img  to new /boot directory"
 msgstr "Не удаётся скопировать initrd.img в новый каталог /boot"
 
-#: ../draklive-install:674
+#: ../draklive-install:638
 #, c-format
 msgid "initrd.img has been created"
 msgstr "initrd.img был создан"
 
-#: ../draklive-install:706
-#, c-format
+#: ../draklive-install:667
+#, fuzzy, c-format
 msgid ""
-"Please halt your computer, remove your live system, and restart your "
-"computer."
+"Congratulations for installing OpenMandriva. Please halt your computer, "
+"remove your live system, and restart your computer."
 msgstr ""
 "Перезагрузите компьютер, удалите носитель с live-системой и загрузитесь с "
 "жёсткого диска."
 
-#: ../draklive-install:708
+#: ../draklive-install:669
 #, c-format
 msgid ""
 "Your VNC connection will be dropped. Please reconnect after the computer is "
@@ -196,42 +188,42 @@ msgstr ""
 "Ваше подключение по VNC будет сброшено. Пожалуйсте, переподключитесь, когда "
 "компьютер перезагрузится."
 
-#: ../draklive-install:715
+#: ../draklive-install:676
 #, c-format
 msgid "Congratulations"
 msgstr "Поздравляем"
 
-#: ../draklive-install:721
+#: ../draklive-install:682
 #, c-format
 msgid "Finish"
 msgstr "Завершить"
 
-#: ../draklive-install:744
+#: ../draklive-install:705
 #, c-format
 msgid "Continue anyway?"
 msgstr "Всё равно продолжить?"
 
-#: ../draklive-install:749
+#: ../draklive-install:710
 #, c-format
 msgid "Quit without saving"
 msgstr "Выйти без сохранения"
 
-#: ../draklive-install:749
+#: ../draklive-install:710
 #, c-format
 msgid "Quit without writing the partition table?"
 msgstr "Выйти без записи таблицы разделов?"
 
-#: ../draklive-install:755
+#: ../draklive-install:716
 #, c-format
 msgid "Do you want to save /etc/fstab modifications"
 msgstr "Хотите сохранить изменения в /etc/fstab?"
 
-#: ../draklive-install:762
+#: ../draklive-install:723
 #, c-format
 msgid "You need to reboot for the partition table modifications to take place"
 msgstr "Чтобы применить изменения в таблице разделов, перезагрузите компьютер"
 
-#: ../draklive-install:767
+#: ../draklive-install:728
 #, c-format
 msgid ""
 "You should format partition %s.\n"
@@ -247,15 +239,38 @@ msgid "Live Install"
 msgstr "Установщик в режиме Live"
 
 #: ../openmandriva-draklive-install.desktop.in.h:2
-msgid "Install your OpenMandriva Lx live system to disk"
+#, fuzzy
+msgid "Install your OpenMandriva live system to disk"
 msgstr "Установить дистрибутив на жёсткий диск"
 
 #: ../draklive-install.desktop.in.h:1
 msgid "Install on Hard Disk"
 msgstr "Установка на жесткий диск"
 
-#~ msgid "Try again?"
-#~ msgstr "Повторить попытку?"
+#~ msgid ""
+#~ "Failed to launch post-install setup. It will be started on next boot."
+#~ msgstr ""
+#~ "Не удалось выполнить настройку установленной системы. Она будет запущена "
+#~ "при первой загрузке."
+
+#~ msgid ""
+#~ "Failed to prepare chroot for post-install setup. Post-install will be "
+#~ "started on next boot."
+#~ msgstr ""
+#~ "Не удалось подготовить окружение для настройки установленной системы. "
+#~ "Настройка будет запущена при первой загрузке."
+
+#~ msgid "This wizard will help you to install the live distribution."
+#~ msgstr "Этот мастер поможет вам установить дистрибутив."
+
+#~ msgid "Output log"
+#~ msgstr "Консольный вывод"
+
+#~ msgid "Mount commands output"
+#~ msgstr "Вывод команд монтирования"
+
+#~ msgid "Grub2 installation output"
+#~ msgstr "Вывод команд установки Grub2"
 
 #~ msgid "Computing total size"
 #~ msgstr "Вычисляется общий размер"
@@ -381,11 +396,12 @@ msgstr "Установка на жесткий диск"
 
 #~ msgid ""
 #~ "Your Windows partition is too fragmented. Please reboot your computer "
-#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva Lx Linux "
-#~ "installation."
+#~ "under Windows, run the ``defrag'' utility, then restart the OpenMandriva "
+#~ "Lx Linux installation."
 #~ msgstr ""
 #~ "Раздел Windows слишком фрагментирован. Загрузитесь в Windows, запустите "
-#~ "утилиту \"defrag\", а затем повторно запустите установку OpenMandriva Lx Linux."
+#~ "утилиту \"defrag\", а затем повторно запустите установку OpenMandriva Lx "
+#~ "Linux."
 
 #~ msgid ""
 #~ "WARNING!\n"
