@@ -447,7 +447,7 @@ sub update_grub_options {
 }
 
 sub find_efi_sys_parts() {
-  my @parts = `parted -lsm  | awk -F: '{print \$1 ":" \$5 ":" \$7}'`;
+  my @parts = `LANGUAGE=C parted -lsm  | awk -F: '{print \$1 ":" \$5 ":" \$7}'`;
 
   my $curr_device = "";
 
