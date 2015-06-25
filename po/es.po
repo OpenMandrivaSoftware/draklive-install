@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-es\n"
 "POT-Creation-Date: 2015-06-24 12:00+0100\n"
-"PO-Revision-Date: 2010-04-27 18:03-0300\n"
+"PO-Revision-Date: 2015-06-25 12:25+0100\n"
 "Last-Translator: Diego Bello Carreño <dbello@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "Language: es\n"
@@ -29,7 +29,7 @@ msgstr "OpenMandriva Lx Live"
 #: ../draklive-install:122
 #, c-format
 msgid "Welcome! Let's get started installing OpenMandriva Lx."
-msgstr ""
+msgstr "¡Bienvenido! Vamos a empezar la instalación OpenMandriva Lx."
 
 #: ../draklive-install:155 ../draklive-install:234 ../draklive-install:315
 #, c-format
@@ -66,12 +66,12 @@ msgstr "No se pueden copiar archivos a la nueva ubicación raíz"
 #: ../draklive-install:389
 #, c-format
 msgid " Mb\n"
-msgstr ""
+msgstr "Mb\n"
 
 #: ../draklive-install:393
 #, c-format
 msgid " Gb\n"
-msgstr ""
+msgstr "Gb\n"
 
 #: ../draklive-install:499
 #, c-format
@@ -89,7 +89,7 @@ msgid "Boot device"
 msgstr "Dispositivo de arranque"
 
 #: ../draklive-install:506
-#, fuzzy, c-format
+#, c-format
 msgid "Bootloader-id"
 msgstr "Cargador de arranque"
 
@@ -106,76 +106,76 @@ msgstr "Demora antes de arrancar la imagen predeterminada"
 #: ../draklive-install:509
 #, c-format
 msgid "Disable UUID"
-msgstr ""
+msgstr "UUID Desactivar"
 
 #: ../draklive-install:510
 #, c-format
 msgid "Boot with compatibility kernel"
-msgstr ""
+msgstr "Arranque con el kernel de compatibilidad"
 
 #: ../draklive-install:514
 #, c-format
 msgid "Please wait while the bootloader is being installed..."
-msgstr ""
+msgstr "Por favor, espere mientras se instala el gestor de arranque ..."
 
 #: ../draklive-install:533
-#, fuzzy, c-format
+#, c-format
 msgid "Warning"
-msgstr "Particionando"
+msgstr "Aviso"
 
 #: ../draklive-install:533
 #, c-format
 msgid "Failed to update Grub2 configuration:"
-msgstr ""
+msgstr "Error al actualizar la configuración Grub2:"
 
 #: ../draklive-install:533
 #, c-format
 msgid "Continuing with default settings."
-msgstr ""
+msgstr "Continuando con la configuración predeterminada"
 
 #: ../draklive-install:566
 #, c-format
 msgid "Failed to prepare chroot for installing Grub2:"
-msgstr ""
+msgstr "No se ha podido preparar chroot para instalar Grub2:"
 
 #: ../draklive-install:566 ../draklive-install:613
 #, c-format
 msgid "Try again?"
-msgstr ""
+msgstr "Inténtalo de nuevo?"
 
 #: ../draklive-install:584
 #, c-format
 msgid "No ESP partition detected."
-msgstr ""
+msgstr "No partición ESP detecta."
 
 #: ../draklive-install:613
 #, c-format
 msgid "Failed to install Grub2:"
-msgstr ""
+msgstr "Error al instalar Grub2:"
 
 #: ../draklive-install:628
 #, c-format
 msgid "Please wait while initrd is prepared"
-msgstr ""
+msgstr "Por favor espere mientras initrd está preparado"
 
 #: ../draklive-install:634
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to copy initrd.img  to new /boot directory"
 msgstr "No se pueden copiar archivos a la nueva ubicación raíz"
 
 #: ../draklive-install:638
 #, c-format
 msgid "initrd.img has been created"
-msgstr ""
+msgstr "initrd.img ha sido creada"
 
 #: ../draklive-install:667
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Congratulations for installing OpenMandriva. Please halt your computer, "
 "remove your live system, and restart your computer."
 msgstr ""
-"Apague su ordenador, quite el disco con el sistema «Live» y encienda su "
-"ordenador de nuevo."
+"Felicidades para instalar OpenMandriva. Apague su ordenador, quite el disco "
+"con el sistema «Live» y encienda su ordenador de nuevo."
 
 #: ../draklive-install:669
 #, c-format
@@ -183,6 +183,8 @@ msgid ""
 "Your VNC connection will be dropped. Please reconnect after the computer is "
 "restarted."
 msgstr ""
+"Su conexión VNC será dado de baja. Por favor, vuelva a conectar después de "
+"que el equipo se reinicia."
 
 #: ../draklive-install:676
 #, c-format
@@ -238,7 +240,6 @@ msgid "Live Install"
 msgstr "Instalación Live"
 
 #: ../openmandriva-draklive-install.desktop.in.h:2
-#, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Instalar sistema live de OpenMandriva Lx en disco"
 
