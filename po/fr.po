@@ -74,7 +74,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-fr\n"
 "POT-Creation-Date: 2015-06-24 12:00+0100\n"
-"PO-Revision-Date: 2008-03-22 14:10+0100\n"
+"PO-Revision-Date: 2015-06-25 10:38+0100\n"
 "Last-Translator: Christophe Berthelé <cpjc@free.fr>\n"
 "Language-Team: French <cooker-i18n@mandrivalinux.org>\n"
 "Language: fr\n"
@@ -92,7 +92,7 @@ msgstr "OpenMandriva Lx Live"
 #: ../draklive-install:122
 #, c-format
 msgid "Welcome! Let's get started installing OpenMandriva Lx."
-msgstr ""
+msgstr "Bienvenue! Commençons l'installation OpenMandriva Lx."
 
 #: ../draklive-install:155 ../draklive-install:234 ../draklive-install:315
 #, c-format
@@ -152,7 +152,7 @@ msgid "Boot device"
 msgstr "Périphérique d'amorçage"
 
 #: ../draklive-install:506
-#, fuzzy, c-format
+#, c-format
 msgid "Bootloader-id"
 msgstr "Programme d'amorçage"
 
@@ -169,76 +169,77 @@ msgstr "Délai avant l'activation du choix par défaut"
 #: ../draklive-install:509
 #, c-format
 msgid "Disable UUID"
-msgstr ""
+msgstr "Désactiver UUID"
 
 #: ../draklive-install:510
 #, c-format
 msgid "Boot with compatibility kernel"
-msgstr ""
+msgstr "Boot avec le noyau de compatibilité"
 
 #: ../draklive-install:514
 #, c-format
 msgid "Please wait while the bootloader is being installed..."
 msgstr ""
+"S'il vous plaît patienter pendant que le chargeur d'amorçage est installé ..."
 
 #: ../draklive-install:533
 #, c-format
 msgid "Warning"
-msgstr ""
+msgstr "Avertissement"
 
 #: ../draklive-install:533
 #, c-format
 msgid "Failed to update Grub2 configuration:"
-msgstr ""
+msgstr "Impossible de mettre à jour la configuration Grub2:"
 
 #: ../draklive-install:533
 #, c-format
 msgid "Continuing with default settings."
-msgstr ""
+msgstr "En continuant avec les paramètres par défaut."
 
 #: ../draklive-install:566
 #, c-format
 msgid "Failed to prepare chroot for installing Grub2:"
-msgstr ""
+msgstr "Échec pour préparer chroot pour installer Grub2:"
 
 #: ../draklive-install:566 ../draklive-install:613
 #, c-format
 msgid "Try again?"
-msgstr ""
+msgstr "Essayer à nouveau?"
 
 #: ../draklive-install:584
 #, c-format
 msgid "No ESP partition detected."
-msgstr ""
+msgstr "Aucune partition ESP détecté."
 
 #: ../draklive-install:613
 #, c-format
 msgid "Failed to install Grub2:"
-msgstr ""
+msgstr "Impossible d'installer Grub2:"
 
 #: ../draklive-install:628
 #, c-format
 msgid "Please wait while initrd is prepared"
-msgstr ""
+msgstr "S'il vous plaît patienter pendant initrd est prêt"
 
 #: ../draklive-install:634
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to copy initrd.img  to new /boot directory"
-msgstr "Impossible de copier les fichiers vers la nouvelle racine"
+msgstr "Impossible de copier initrd.img à nouveau répertoire / boot"
 
 #: ../draklive-install:638
 #, c-format
 msgid "initrd.img has been created"
-msgstr ""
+msgstr "initrd.img a été créée"
 
 #: ../draklive-install:667
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Congratulations for installing OpenMandriva. Please halt your computer, "
 "remove your live system, and restart your computer."
 msgstr ""
-"Veuillez arrêter votre ordinateur, enlever votre système live, et redémarrer "
-"votre ordinateur."
+"Félicitations pour l'installation OpenMandriva. Veuillez arrêter votre "
+"ordinateur, enlever votre système live, et redémarrer votre ordinateur."
 
 #: ../draklive-install:669
 #, c-format
@@ -246,6 +247,8 @@ msgid ""
 "Your VNC connection will be dropped. Please reconnect after the computer is "
 "restarted."
 msgstr ""
+"Votre connexion VNC sera abandonné. S'il vous plaît se reconnecter après "
+"redémarrage de l'ordinateur."
 
 #: ../draklive-install:676
 #, c-format
@@ -298,10 +301,9 @@ msgstr ""
 
 #: ../openmandriva-draklive-install.desktop.in.h:1
 msgid "Live Install"
-msgstr ""
+msgstr "Live installe"
 
 #: ../openmandriva-draklive-install.desktop.in.h:2
-#, fuzzy
 msgid "Install your OpenMandriva live system to disk"
 msgstr "Installer votre OpenMandriva Lx Live sur un disque"
 
